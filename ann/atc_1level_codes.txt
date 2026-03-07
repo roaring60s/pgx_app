@@ -1,0 +1,14 @@
+A	Alimentary tract and metabolism
+B	Blood and blood forming organs
+C	Cardiovascular system
+D	Dermatological drugs
+G	Genitourinary system and reproductive hormones
+H	Systemic hormonal preparations
+J	Antiinfectives for systemic use
+L	Antineoplastic and immunomodulating agents
+M	Musculoskeletal system
+N	Nervous system
+P	Antiparasitic including insecticides and repellents
+R	Respiratory system
+S	Sensory organs
+V	Various anatomical structures

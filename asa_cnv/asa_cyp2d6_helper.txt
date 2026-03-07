@@ -1,0 +1,44 @@
+/home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final.txt
+
+
+
+awk '{FS="\t"; OFS="\t"; $0=$0} $4==22 && $5>=42126500 && $5<=42126755{print $0}' /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final.txt > /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final_CYP2D6_exon9.txt
+
+
+awk '{FS="\t"; OFS="\t"; $0=$0} $4==22 && $5>=42129186 && $5<=42129737{print $0}' /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final.txt > /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final_CYP2D6_intron2.txt
+
+42129186
+
+
+/home/p/mygenics/prj_exome/cyp2d6/CYP2D6_exon9_illuminaID.txt
+
+/home/p/mygenics/prj_exome/cyp2d6/CYP2D6_intron2_illuminaID.txt
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_exon9_rsID.txt /media/p/D11/patients/B000_mgrc/jeremy/data_pgx/JT_ASA_withheader.txt
+
+
+grep rs74478221 /media/p/D11/patients/B000_mgrc/jeremy/data_pgx/JT_ASA_withheader.txt
+
+grep rs74478221 /media/p/D11/patients/B000_mgrc/jeremy/asa_7C_20385
+
+
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_exon9_rsID.txt /media/p/D11/patients/B000_mgrc/jeremy/asa_7C_20385
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_intron2_POS38.txt /media/p/D11/patients/B000_mgrc/jeremy/asa_7C_20385
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_intron2_POS38.txt /media/p/D11/patients/B000_mgrc/jeremy/data_pgx/JT_ASA_withheader.txt
+
+
+
+grep -w 'ilmnseq_22\:42525616\-3_B_F_2599945818' /media/p/D11/patients/B000_mgrc/jeremy/data_pgx/JT_ASA_withheader.txt
+
+grep rs180847475 /media/p/D11/patients/B000_mgrc/jeremy/asa_7C_20385
+grep '22\:42525645' /media/p/D11/patients/B000_mgrc/jeremy/asa_7C_20385
+
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_exon9_rsID.txt /media/p/D11/patients/B000_mygenics/zosia/zosia_AncestryDNA_ann37_GT_PGX_020425.txt
+
+grep -w -f /home/p/mygenics/prj_exome/cyp2d6/CYP2D6_exon9_rsID.txt /media/p/D11/patients/B000_mygenics/zosia/Zofia_AncestryDNA.txt
+
+

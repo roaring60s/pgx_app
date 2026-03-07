@@ -1,0 +1,106 @@
+A01A	STOMATOLOGICAL PREPARATIONS	metronidazole,minocycline,dexamethasone	A01AC02,A01AB23,A01AB17
+A02B	DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)	esomeprazole,dexlansoprazole,omeprazole,lansoprazole,rabeprazole,pantoprazole	A02BC04,A02BC05,A02BC02,A02BC03,A02BC01,A02BC06
+A03F	PROPULSIVES	itopride	A03FA07
+A04A	ANTIEMETICS AND ANTINAUSEANTS	palonosetron,granisetron,ondansetron,tropisetron,dolasetron	A04AA03,A04AA04,A04AA05,A04AA02,A04AA01
+A06A	DRUGS FOR CONSTIPATION	naloxone	A06AH04
+A07E	INTESTINAL ANTIINFLAMMATORY AGENTS	prednisone,prednisolone,budesonide,sulfasalazine	A07EC01,A07EA01,A07EA06,A07EA03
+A08A	ANTIOBESITY PREPARATIONS	sibutramine	A08AA10
+A10B	BLOOD GLUCOSE LOWERING DRUGS	repaglinide,metformin,glimepiride,pioglitazone,rosiglitazone,liraglutide,vildagliptin,gliclazide,tolbutamide,sitagliptin,troglitazone,glipizide,glyburide	A10BA02,A10BG03,A10BH01,A10BB03,A10BG01,A10BG02,A10BX02,A10BH02,A10BB09,A10BJ02,A10BB07,A10BB12,A10BB01
+A16A	OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS	migalastat,zinc acetate,lonafarnib	A16AX14,A16AX05,A16AX20
+B01A	ANTITHROMBOTIC AGENTS	phenprocoumon,clopidogrel,acenocoumarol,fluindione,apixaban,prasugrel,cangrelor,warfarin,rivaroxaban,ticagrelor,dabigatran,coumarin,methylene blue	B01AC25,B01AF01,B01AF02,B01AC04,B01AA07,B01AC22,B01AA12,B01AC24,B01AA03,B01AA04,B01AE07,B01AE01AA,B06A
+B03B	VITAMIN B12 AND FOLIC ACID	cyanocobalamin,folic acid	B03BB01,B03BA01
+C01A	CARDIAC GLYCOSIDES	digoxin	C01AA05
+C01B	ANTIARRHYTHMICS	quinidine,flecainide,amiodarone,propafenone,mexiletine,disopyramide	C01BC03,C01BC04,C01BA03,C01BA01,C01BB02,C01BD01
+C01C	CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES	dobutamine,phenylephrine,ephedrine,isoproterenol	C01CA06,C01CA07,C01CA26,C01CA02, R03AB02, R03CB01
+C01E	OTHER CARDIAC PREPARATIONS	ibuprofen,regadenoson,indomethacin	C01EB16,C01EB21,C01EB03, M01AB01, M02AA23, S01BC01
+C02A	ANTIADRENERGIC AGENTS	clonidine	C02AC01
+C02D	ARTERIOLAR SMOOTH MUSCLE	hydralazine,nitroprusside	C02DB02,C02DD01
+C03A	LOW-CEILING DIURETICS	hydrochlorothiazide,chlorothiazide	C03AA03,C03AA04
+C03C	HIGH-CEILING DIURETICS	bumetanide,furosemide,torasemide	C03CA04,C03CA02,C03CA01
+C03D	POTASSIUM-SPARING AGENTS	spironolactone,amiloride	C03DA01,C03DB01
+C05A	AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE	triamcinolone,prednisolone,dexamethasone	C05AA09,C05AA04,C05AA12
+C07A	BETA BLOCKING AGENTS	propranolol,carvedilol,metoprolol,bisoprolol,talinolol,atenolol,timolol,sotalol	C07AA05,C07AB13,C07AB03,C07AB07,C07AB02,C07AA06,C07AG02,C07AA07
+C08C	SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS	amlodipine,nimodipine,nitrendipine,nifedipine	C08CA06,C08CA05,C08CA08,C08CA01
+C08D	SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS	verapamil,diltiazem	C08DA01,C08DB01
+C09A	ACE INHIBITORS	ramipril,lisinopril,enalapril,trandolapril,benazepril,perindopril,imidapril,quinapril,captopril	C09AA06,C09AA07,C09AA05,C09AA02,C09AA10,C09AA01,C09AA16,C09AA04,C09AA03
+C09C	ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs)	telmisartan,losartan,candesartan,irbesartan,olmesartan	C09CA06,C09CA07,C09CA04,C09CA01,C09CA08
+C10A	LIPID MODIFYING AGENTS	simvastatin,cerivastatin,atorvastatin,rosuvastatin,fenofibrate,fluvastatin,pravastatin,pitavastatin,lovastatin	C10AA03,C10AA01,C10AA07,C10AA08,C10AA05,C10AA04,C10AB05,C10AA02,C10AA06
+D04A	ANTIPRURITICS	doxepin	D04AX01
+D05B	ANTIPSORIATICS FOR SYSTEMIC USE	methoxsalen	D05BA02
+D06A	ANTIBIOTICS FOR TOPICAL USE	gentamicin	D06AX07
+D06B	CHEMOTHERAPEUTICS FOR TOPICAL USE	metronidazole,imiquimod	D06BB10,D06BX01
+D07A	CORTICOSTEROIDS	methylprednisolone,triamcinolone,prednisolone,budesonide,dexamethasone,fluticasone propionate	D07AB09,D07AC09,D07AA03,D07AA01,D07AB19,D07AC17
+D07X	CORTICOSTEROIDS	triamcinolone,prednisolone,dexamethasone	D07XB05,D07XB02,D07XA02
+D08A	ANTISEPTICS AND DISINFECTANTS	ethanol	D08AX08
+D10A	ANTI-ACNE PREPARATIONS FOR TOPICAL USE	clindamycin,dapsone,methylprednisolone,dexamethasone,erythromycin,minocycline	D10AF02,D10AF07,D10AX05,D10AA02,D10AA03,D10AF01
+D11A	OTHER DERMATOLOGICAL PREPARATIONS	caffeine,diclofenac,tacrolimus	D11AX26,D11AX18,D11AH01
+G01A	ANTIINFECTIVES AND ANTISEPTICS	clindamycin,metronidazole	G01AF01,G01AA10
+G02C	OTHER GYNECOLOGICALS	ibuprofen,ritodrine,testosterone	G02CA01,G02CC01,G03BA03
+G03C	ESTROGENS	estradiol,conjugated estrogens	G03CA03,G03CA57
+G03D	PROGESTOGENS	medroxyprogesterone,progesterone	G03DA02,G03DA04
+G03G	GONADOTROPINS AND OTHER OVULATION STIMULANTS	urofollitropin,follitropin beta	G03GA06,G03GA04
+G03X	OTHER SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM	raloxifene	G03XC01
+G04B	UROLOGICALS	fesoterodine,sildenafil,vardenafil,dapoxetine,tolterodine,phenazopyridine	G04BD07,G04BE09,G04BX14,G04BD11,G04BE03,G04BX06
+H01A	ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES	thyrotropin alfa,somatropin recombinant	H01AB01,H01AC01
+H02A	CORTICOSTEROIDS FOR SYSTEMIC USE	methylprednisolone,prednisone,triamcinolone,prednisolone,dexamethasone	H02AB08,H02AB07,H02AB06,H02AB02,H02AB04
+H03B	ANTITHYROID PREPARATIONS	carbimazole,propylthiouracil,methimazole	H03BB01,H03BA02,H03BB02
+J01A	TETRACYCLINES	minocycline	J01AA08
+J01C	BETA-LACTAM ANTIBACTERIALS	flucloxacillin,dicloxacillin,penicillin v	J01CF05,J01CF01,J01CE02
+J01D	OTHER BETA-LACTAM ANTIBACTERIALS	ceftriaxone,cefotaxime,cephalexin	J01DD04,J01DD01,J01DB01
+J01E	SULFONAMIDES AND TRIMETHOPRIM	sulfamethoxazole	J01EC01
+J01F	MACROLIDES	clindamycin,erythromycin	J01FA01,J01FF01
+J01G	AMINOGLYCOSIDE ANTIBACTERIALS	gentamicin,streptomycin,tobramycin	J01GA01,J01GB03,J01GB01
+J01X	OTHER ANTIBACTERIALS	metronidazole,daptomycin,vancomycin	J01XD01,J01XX09,J01XA01
+J02A	ANTIMYCOTICS FOR SYSTEMIC USE	voriconazole	J02AC03
+J04A	DRUGS FOR TREATMENT OF TUBERCULOSIS	ethambutol,isoniazid,pyrazinamide,rifampin	J04AC01,J04AK01,J04AK02,J04AB02
+J05A	DIRECT ACTING ANTIVIRALS	atazanavir,abacavir,nelfinavir,nevirapine,stavudine,dolutegravir,efavirenz,letermovir,didanosine,zidovudine,sofosbuvir,boceprevir,oseltamivir,amprenavir,lamivudine,ritonavir,valganciclovir,ribavirin,indinavir,daclatasvir,faldaprevir,telaprevir,etravirine,tenofovir	J05AP02,J05AF06,J05AF02,J05AJ03,J05AF04,J05AE04,J05AP07,J05AH02,J05AE05,J05AP03,J05AP01,J05AG03,J05AE08,J05AF05,J05AB14,J05AE02,J05AP08,J05AF01,J05AG04,J05AG01,J05AX18,J05AP04,J05AE03,J05AF07
+L01A	ALKYLATING AGENTS	busulfan,thiotepa,melphalan,temozolomide,cyclophosphamide,dacarbazine	L01AA01,L01AA03,L01AB01,L01AC01,L01AX03,L01AX04
+L01B	ANTIMETABOLITES	gemcitabine,cytarabine,pemetrexed,tegafur,cladribine,fluorouracil,mercaptopurine,capecitabine,fludarabine,methotrexate,thioguanine,tegafur / gimeracil	L01BC02,L01BC01,L01BB05,L01BC05,L01BB02,L01BC03,L01BC06,L01BA01,L01BB04,L01BA04,L01BB03,L01BC53
+L01C	PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS	irinotecan,paclitaxel,topotecan,etoposide,vindesine,docetaxel,vincristine,vinorelbine,vinblastine	L01CD01,L01CA04,L01CE02,L01CA02,L01CD02,L01CB01,L01CE01,L01CA03,L01CA01
+L01D	CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES	idarubicin,bleomycin,mitoxantrone,daunorubicin,epirubicin,doxorubicin	L01DB01,L01DB02,L01DB07,L01DB03,L01DC01,L01DB06
+L01E	PROTEIN KINASE INHIBITORS	sorafenib,dasatinib,erlotinib,gefitinib,pazopanib,everolimus,temsirolimus,axitinib,sunitinib,nilotinib,imatinib,regorafenib	L01EG02,L01EA02,L01EG01,L01EX03,L01EA01,L01EA03,L01EB01,L01EB02,L01EX01,L01EK01,L01EX02,L01EX05
+L01X	OTHER ANTINEOPLASTIC AGENTS	bortezomib,cisplatin,gemtuzumab ozogamicin,asparaginase,panitumumab,trastuzumab,celecoxib,pegaspargase,mitotane,carboplatin,oxaliplatin,rituximab,cetuximab,bevacizumab,atrasentan,hydroxyurea	L01XX24,L01XA03,L01XC08,L01XG01,L01XC06,L01XC05,L01XC02,L01XX23,L01XC07,L01XC03,L01XA02,L01XA01,L01XX33,L01XX02,L01XX02AA,L01XX05
+L02A	HORMONES AND RELATED AGENTS	medroxyprogesterone	L02AB02
+L02B	HORMONE ANTAGONISTS AND RELATED AGENTS	letrozole,anastrozole,exemestane,tamoxifen,abiraterone	L02BG06,L02BG03,L02BG04,L02BA01,L02BX03
+L03A	IMMUNOSTIMULANTS	peginterferon alfa-2a,peginterferon alfa-2b	L03AB11,L03AB10
+L04A	IMMUNOSUPPRESSANTS	lenalidomide,tacrolimus,sirolimus,etanercept,adalimumab,azathioprine,mycophenolic acid,cladribine,thalidomide,infliximab,certolizumab pegol,ustekinumab,eculizumab,dimethyl fumarate,leflunomide,everolimus,siponimod,tocilizumab,methotrexate,cyclosporine,alemtuzumab	L04AB02,L04AB04,L04AA25,L04AA10,L04AX04,L04AB05,L04AB01,L04AX02,L04AA40,L04AC07,L04AA18,L04AC05,L04AX03,L04AA42,L04AA06,L04AX07,L04AD02,L04AX01,L04AA13,L04AD01AA,L04AA34
+M01A	ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS	meloxicam,celecoxib,diclofenac,piroxicam,ibuprofen,sulindac,flurbiprofen,ketoprofen,ketorolac,tenoxicam,lornoxicam,rofecoxib	M01AB15,M01AE01,M01AB02,M01AC01,M01AE09,M01AC06,M01AE03,M01AH01,M01AB05,M01AC02,M01AC05,M01AH02
+M02A	TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN	diclofenac,piroxicam,ibuprofen,flurbiprofen,ketoprofen	M02AA15,M02AA07,M02AA13,M02AA19,M02AA10
+M04A	ANTIGOUT PREPARATIONS	allopurinol,febuxostat,tranilast	M04AA01,M04AA03,M04AB
+M05B	DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION	etidronic acid,zoledronate	M05BA01,M05BA08
+M09A	OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM	ataluren,tolperisone	M09AX03,M03BX04
+N01A	ANESTHETICS	nitrous oxide,sufentanil,desflurane,propofol,sevoflurane,halothane,isoflurane,alfentanil,remifentanil,fentanyl,enflurane,cocaine	N01AH06,N01AX10,N01AH01,N01AB08,N01AH03,N01AX13,N01AB07,N01AB06,N01AB04,N01AB01,N01BC01
+N02A	OPIOIDS	butorphanol,oxycodone,morphine,buprenorphine,dihydrocodeine,tapentadol,tramadol,meperidine	N02AX06,N02AE01,N02AA05,N02AB03,N02AA08,N02AF01,N02AA01,N02AX02,N02AB02
+N02B	OTHER ANALGESICS AND ANTIPYRETICS	salicylamide,methoxyflurane,dipyrone,acetaminophen,flupirtine	N02BA05,N02BG09,N02BB02,N02BE01,N02BG07
+N02C	ANTIMIGRAINE PREPARATIONS	sumatriptan,clonidine	N02CC01,N02CX02
+N03A	ANTIEPILEPTICS	gabapentin,phenobarbital,valproic acid,topiramate,mephenytoin,phenytoin,lamotrigine,pregabalin,zonisamide,carbamazepine,oxcarbazepine,methylphenobarbital	N03AA02,N03AX12,N03AG01,N03AB04,N03AX15,N03AF01,N03AF02,N03AX09,N03AB02,N03AX16,N03AX11,N03AA01
+N04B	DOPAMINERGIC AGENTS	entacapone,levodopa,pramipexole,rasagiline,selegiline	N04BX02,N04BC05,N04BA01,N04BD02,N04BD01
+N05A	ANTIPSYCHOTICS	risperidone,perphenazine,thioridazine,zuclopenthixol,aripiprazole,chlorpromazine,haloperidol,olanzapine,ziprasidone,paliperidone,amisulpride,lithium,iloperidone,fluphenazine,trifluoperazine,clozapine,quetiapine,lurasidone,prochlorperazine,bromperidol	N05AX13,N05AX14,N05AF05,N05AA01,N05AE04,N05AH03,N05AH02,N05AH04,N05AB02,N05AB03,N05AX08,N05AX12,N05AD01,N05AL05,N05AB04,N05AB06,N05AE05,N05AC02,N05AN01,N05AD06
+N05B	ANXIOLYTICS	alprazolam,clobazam,diazepam,oxazepam	N05BA01,N05BA09,N05BA12,N05BA04
+N05C	HYPNOTICS AND SEDATIVES	midazolam,dexmedetomidine	N05CD08,N05CM18
+N06A	ANTIDEPRESSANTS	fluoxetine,vortioxetine,bupropion,escitalopram,agomelatine,trimipramine,milnacipran,tianeptine,mirtazapine,venlafaxine,sertraline,desipramine,duloxetine,nortriptyline,imipramine,mianserin,nefazodone,fluvoxamine,clomipramine,amitriptyline,paroxetine,doxepin,citalopram,maprotiline	N06AB04,N06AX17,N06AX21,N06AB10,N06AB05,N06AA10,N06AA02,N06AX14,N06AX22,N06AX12,N06AB03,N06AB08,N06AA12,N06AB06,N06AA01,N06AX26,N06AA06,N06AX16,N06AA04,N06AX06,N06AX11,N06AX03,N06AA09,N06AA21
+N06B	PSYCHOSTIMULANTS	modafinil,methylphenidate,caffeine,atomoxetine,methamphetamine	N06BA04,N06BA09,N06BC01,N06BA07,N06BA03
+N06D	ANTI-DEMENTIA DRUGS	memantine,galantamine,donepezil,rivastigmine	N06DA04,N06DA03,N06DA02,N06DX01
+N07B	DRUGS USED IN ADDICTIVE DISORDERS	acamprosate,naltrexone,nicotine,buprenorphine,disulfiram,methadone,varenicline,heroin	N07BB01,N07BC02,N07BC01,N07BA03,N07BB04,N07BB03,N07BA01,N07BC06
+P01A	AGENTS AGAINST AMOEBIASIS AND OTHER PROTOZOAL DISEASES	metronidazole	P01AB01
+P01B	ANTIMALARIALS	artesunate,pyrimethamine,amodiaquine,primaquine,tafenoquine	P01BA06,P01BA03,P01BE03,P01BD01,P01BA07
+P03A	ECTOPARASITICIDES	disulfiram	P03AA04
+R01A	DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE	ephedrine,nedocromil,phenylephrine,flunisolide,prednisolone,triamcinolone,budesonide,dexamethasone	R01AB01,R01AB05,R01AD02,R01AD11,R01AA04,R01AD04,R01AA03,R01AC07,R01AD03,R01AD05
+R03A	ADRENERGICS	salbutamol,salmeterol,terbutaline	R03AC12,R03AC02,R03AC03
+R03B	OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES	triamcinolone,flunisolide,nedocromil,budesonide,tiotropium	R03BA06,R03BC03,R03BA02,R03BA03,R03BB04
+R03C	ADRENERGICS FOR SYSTEMIC USE	ephedrine,salbutamol,terbutaline	R03CC03,R03CC02,R03CA02
+R03D	OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES	montelukast,zileuton	R03DC03,R03D
+R05C	EXPECTORANTS	acetylcysteine,carbocisteine	R05CB01,R05CB03
+R05D	COUGH SUPPRESSANTS	dextromethorphan,hydrocodone,ethylmorphine,codeine	R05DA01,R05DA04,R05DA03,R05DA09
+R06A	ANTIHISTAMINES FOR SYSTEMIC USE	desloratadine,fexofenadine,mizolastine	R06AX26,R06AX25,R06AX27
+S01A	ANTIINFECTIVES	trifluridine,erythromycin,gentamicin	S01AD02,S01AA11,S01AA17
+S01B	ANTIINFLAMMATORY AGENTS	diclofenac,piroxicam,triamcinolone,prednisolone,flurbiprofen,dexamethasone,ketorolac	S01BC04,S01BA04,S01BC03,S01BC06,S01BA05,S01BC05,S01BA01
+S01C	ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION	prednisolone,dexamethasone	S01CB01,S01CB02
+S01E	ANTIGLAUCOMA PREPARATIONS AND MIOTICS	latanoprost,clonidine,timolol,methazolamide,acetylcholine	S01ED01,S01EC05,S01EA04,S01EE01,S01EB09
+S01F	MYDRIATICS AND CYCLOPLEGICS	ephedrine,phenylephrine	S01FB02,S01FB01
+S01G	DECONGESTANTS AND ANTIALLERGICS	phenylephrine,nedocromil	S01GX04,S01GA05
+S01L	OCULAR VASCULAR DISORDER AGENTS	ranibizumab,pegaptanib	S01LA03,S01LA04
+S01X	OTHER OPHTHALMOLOGICALS	sirolimus,ethylmorphine,acetylcysteine	S01XA06,S01XA23,S01XA08
+S02A	ANTIINFECTIVES	gentamicin	S02AA14
+S02B	CORTICOSTEROIDS	prednisolone,dexamethasone	S02BA03,S02BA06
+V04C	OTHER DIAGNOSTIC AGENTS	tolbutamide,folic acid,methacholine,rasburicase	V04CA01,V04CX02,V04CX03,V03AF07

@@ -1,0 +1,129 @@
+CYP2D6 => 42126574-42130791
+
+42126500-42126755
+
+USCS
+	
+42126574-42130791
+
+real
+42126649
+42126710
+
+intron 9 GRCh38
+
+old
+42126500
+42126755
+42,126,752	42,126,499
+
+adjusted
+42126600 - 42126755
+
+=> 42126500-42126755
+
+
+4216607-42131034
+
+===================================================
+itron 2 GRCh38
+USSC
+real
+42129681
+42129781
+
+adjusted
+
+42129600
+42129800
+
+42129600-42129800
+
+=> 42129186-42129737	
+
+Hs04078252_cn 	5′UTR 	Chr.22:42131642 	96
+Hs04083572_cn 	Intron 2 	Chr22:42129681 	96
+Hs07559088_cn 	Intron 2, alternate assay 	Chr22:42129479 	98
+Hs04502391_cn 	Intron 6 	Chr22:42127680 	71
+Hs04502394_cn 	Intron 6, alternate assay 	Chr22:42127759 	75
+Hs00010001_cn 	Exon 9 	Chr22:42126649 	61
+
+
+===================================================================================================
+awk '{FS="\t"; OFS="\t"; $0=$0} $4==22 && $5>=42126500 && $5<=42126755{print $0}' /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final.txt > /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final_CYP2D6_exon9.txt
+
+
+rs28371736
+rs74478221
+rs766507177
+rs28371735
+rs1135832
+rs1135833
+rs1135838
+rs75467367
+rs150445731
+rs1135832
+rs28371736
+rs765776661
+rs1135832
+rs370580423
+rs75467367
+rs1135840
+
+
+
+ilmnseq_rs28371736.1_F2BT-147_B_R_2596100754
+IlmnSeq_rs74478221-147_B_F_2596124887
+IlmnSeq_rs766507177-147_B_F_2599834316
+rs28371735-138_T_R_2264378627
+ilmnseq_rs1135832.2_F2BT-147_B_F_2596094286
+IlmnSeq_rs1135833-147_B_F_2594100765
+IlmnSeq_rs1135838-147_T_F_2596094294
+IlmnSeq_rs75467367-147_T_F_2596124089
+rs150445731-138_T_F_2279884036
+ilmnseq_rs1135832.3_F2BT-147_B_F_2596094288
+ilmnseq_rs28371736.2_F2BT-147_T_R_2596100756
+IlmnSeq_rs765776661_ilmndup1-147_P_F_2602533813
+ilmnseq_rs1135832.1_F2BT-147_T_F_2596094284
+rs370580423-138_B_R_2309549549
+22:42522625:G:C-0_T_F_2609820632
+IlmnSeq_rs1135840_B_ilmndup3-150_T_R_2704971530
+
+
+
+awk '{FS="\t"; OFS="\t"; $0=$0} $4==22 && $5>=42129186 && $5<=42129737{print $0}' /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final.txt > /home/p/mygenics/01_system.development/00_ASA/38/ASA_38_20033911_A2_FWD_dbsnp38_parsed_ST6_final_CYP2D6_intron2.txt
+
+
+rs180847475
+rs186133763
+rs267608306
+rs368389952
+rs67497403
+
+ilmnseq_22:42525616-3_B_F_2599945818
+ilmnseq_22:42525645-3_T_F_2599945820
+rs267608306-138_B_R_2314984704
+rs368389952-138_B_F_2309549525
+rs67497403-138_B_R_2258075243
+
+
+====================================================================================================
+
+Table 5 Intron 2 SNP Frequencies
+Frequency
+SNP African Latino European* Ashkenazi Jewish East Asian European (Finnish) South Asian Othery
+1149C>G (rs186133763) 0.02272 0.001182 0.00026212 0.000 0.000 0.000 0.000 0.003697
+1178G>C (rs180847475) 0.02270 0.001185 0.0002609 0.000 0.000 0.000 0.000 0.003690
+1086C>T (rs770138443) 0.000 0.000 0.00002736 0.000 0.000 0.000 0.000 0.000
+1066T>G (rs78854695) 0.08738 0.002325 0.0003826 0.000 0.000 0.000 0.00009829 0.003099
+All data were extracted from gnomAD v2.1.1. The nucleotide change positions are listed for NG_008376.4, and counted from the translation start codon
+
+
+
+
+Table 6 Intron 6 SNP Frequencies
+Frequency SNP African Latino European* Ashkenazi Jewish East Asian European (Finnish) South Asian Othery
+3144G>A (rs370010370) 0.000 0.00005666 0.0001401 0.000 0.000 0.000 0.000 0.0001389
+3132C>T (rs535258214) 0.0002037 0.00002836 0.000 0.000 0.000 0.000 0.000 0.0001392
+3112G>A (rs375222401) 0.0002914 0.0001429 0.00007925 0.000 0.000 0.000 0.000 0.0002808
+3034C>G (rs539070953) 0.000 0.000 0.000 0.000 0.000 0.0001310 0.000 0.000

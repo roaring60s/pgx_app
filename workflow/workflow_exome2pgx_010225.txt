@@ -1,0 +1,61 @@
+The document outlines the procedures for PGX processing using a VCF file from the GATK pipeline. 
+
+-----------------------------------------------------------------------------------------------------------------------
+Step 0
+
+CYP2D6 CNV analysis by identifying depth in the exon 9 and intron 2
+
+CYP2D6_depth_coverage.sh
+
+-----------------------------------------------------------------------------------------------------------------------
+Step 1 
+Create the 6-column input file for PGX processing 
+Create a 4-column file for MyGenome processing 
+
+# pgx_exome_ST1_input_4C6C_100225.py
+
+input: 
+=> vcf = 'sample'.38.raw.dbsnp.FILT.combined.vcf 
+
+output: 
+<= outfile1 = sampledir + sample + ".exome.6C.vcf" 
+<= outfile2 = sampledir + sample + ".exome.4C.vcf" 
+<= S3O1 = sampledir + sample + ".38.MGC.result.S3O1.txt" 
+
+-----------------------------------------------------------------------------------------------------------------------
+Step 2 
+Create VAR input files for PGX 
+
+# pgx_exome_ST2_input4variant_100225.py
+
+input: 
+=> sampledir + sample + ".exome.6C.vcf" 
+
+output: 
+<= sampledir + "asa_7C_var_" + sample 
+
+-----------------------------------------------------------------------------------------------------------------------
+Step 3 
+Create HAP input files for PGX 
+
+# pgx_exome_ST3_input4hap_100225.py
+
+input: 
+=> sampledir + sample + ".exome.6C.vcf" 
+
+output: 
+<= sampledir + "asa_7C_hap_" + sample
+
+-----------------------------------------------------------------------------------------------------------------------
+Step 4
+Generate PGX Report using:
+
+PGX_Exome_MASTER_100225.sh
+
+input files:
+
+<=
+<=
+
+
+=> final files for PGX report manual processing

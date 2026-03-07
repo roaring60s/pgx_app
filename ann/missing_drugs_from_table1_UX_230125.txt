@@ -1,0 +1,102 @@
+PA449782	glyburide	Glyburide	A	ALIMENTARY TRACT AND METABOLISMA	A10	Drugs used in diabetes	Alimentary tract and metabolisma	Drugs used in diabetes	A10BB01	NA	A10B	BLOOD GLUCOSE LOWERING DRUGS
+PA449171	cysteamine	Cysteamine	A	ALIMENTARY TRACT AND METABOLISMA	A16A	Other alimentary tract and metabolism products	Alimentary tract and metabolisma	Other alimentary tract and metabolism products	A16AA04	NA	A16A	OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+PA166129466	lonafarnib	Lonafarnib	A	ALIMENTARY TRACT AND METABOLISMA	A16A	Other alimentary tract and metabolism products	Alimentary tract and metabolisma	Other alimentary tract and metabolism products	A16AX20	NA	A16A	OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+PA164746334	cilostazol	Cilostazol	B	BLOOD AND BLOOD FORMING ORGANS	B01A	Antithrombotic agents	Blood and blood forming organs	Antithrombotic agents	B01AC23	NA	B01A	ANTITHROMBOTIC AGENTS
+PA449855	heparin	Heparin	B	BLOOD AND BLOOD FORMING ORGANS	B01A	Antithrombotic agents	Blood and blood forming organs	Antithrombotic agents	"B01AB01, C05BA03, S01XA14"	NA	B01A	ANTITHROMBOTIC AGENTS
+PA451686	ticlopidine	Ticlopidine	B	BLOOD AND BLOOD FORMING ORGANS	B01A	Platelet aggregation inhibitors excl. heparin	BLOOD AND BLOOD FORMING ORGANS	Platelet aggregation inhibitors excl. heparin	B01AC05	NA	B01A	ANTITHROMBOTIC AGENTS
+PA450457	methylene blue	Methylene Blue	B	BLOOD AND BLOOD FORMING ORGANS	B06A	Other hematologic drugs	Blood and blood forming organs	Other hematologic drugs	B06A	NA	B01A	ANTITHROMBOTIC AGENTS
+PA450121	isoproterenol	Isoproterenol	C	CARDIOVASCULAR SYSTEM	C01	Cardiac therapy	Cardiovascular system	Cardiac therapy	"C01CA02, R03AB02, R03CB01"	NA	C01C	CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+PA452616	debrisoquine	Debrisoquine	C	CARDIOVASCULAR SYSTEM	C02	Guanidine derivatives	CARDIOVASCULAR SYSTEM	Guanidine derivatives	C02CC04	NA	C01E	OTHER CARDIAC PREPARATIONS
+PA448970	chlorthalidone	Chlorthalidone	C	CARDIOVASCULAR SYSTEM	C03	Diuretic drugs	Cardiovascular system	Diuretic drugs	C03BA04	NA	C01E	OTHER CARDIAC PREPARATIONS
+PA449982	indomethacin	Indomethacin	C	CARDIOVASCULAR SYSTEM	C01	Cardiac therapy	Cardiovascular system	Cardiac therapy	"C01EB03, M01AB01, M02AA23, S01BC01"	NA	C01E	OTHER CARDIAC PREPARATIONS
+PA451406	nitroprusside	Nitroprusside	C	CARDIOVASCULAR SYSTEM	C02	Nitroferricyanide derivatives	CARDIOVASCULAR SYSTEM	Nitroferricyanide derivatives	C02DD01	NA	C02D	ARTERIOLAR SMOOTH MUSCLE
+PA448953	chlorothiazide	Chlorothiazide	C	CARDIOVASCULAR SYSTEM	C03	Thiazides	CARDIOVASCULAR SYSTEM	Thiazides	C03AA04	NA	C03A	LOW-CEILING DIURETICS
+PA448368	amiloride	Amiloride	C	CARDIOVASCULAR SYSTEM	C03	Other potassium-sparing agents	CARDIOVASCULAR SYSTEM	Other potassium-sparing agents	C03DB01	NA	C03D	POTASSIUM-SPARING AGENTS
+PA451457	sotalol	Sotalol	C	CARDIOVASCULAR SYSTEM	C07	Beta blocking agents	CARDIOVASCULAR SYSTEM	Beta blocking agents	C07AA07	NA	C07A	BETA BLOCKING AGENTS
+PA449334	diltiazem	Diltiazem	C	CARDIOVASCULAR SYSTEM	C05	Benzothiazepine derivatives	CARDIOVASCULAR SYSTEM	Benzothiazepine derivatives	C08DB01	NA	C08D	SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS
+PA164742950	olmesartan	Olmesartan	C	CARDIOVASCULAR SYSTEM	C09	Agents acting on the renin-angiotensin system	Cardiovascular system	Agents acting on the renin-angiotensin system	C09CA08	NA	C09C	ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs)
+PA449686	fluticasone propionate	Fluticasone Propionate	D	DERMATOLOGICAL DRUGS	D07	Topical dermatological corticosteroids	Dermatological drugs	Topical dermatological corticosteroids	D07AC17	NA	D07A	CORTICOSTEROIDS
+PA451627	testosterone	Testosterone	G	GENITO URINARY SYSTEM AND SEX HORMONES	G03	3-oxoandrosten (4) derivatives	GENITO URINARY SYSTEM AND SEX HORMONES	3-oxoandrosten (4) derivatives	G03BA03	NA	G02C	OTHER GYNECOLOGICALS
+PA451123	progesterone	Progesterone	G	GENITOURINARY SYSTEM AND REPRODUCTIVE HORMONES	G03	Sex hormones and modulators of the genital system	Genitourinary system and reproductive hormones	Sex hormones and modulators of the genital system	G03DA04	NA	G03D	PROGESTOGENS
+PA164746899	phenazopyridine	Phenazopyridine	G	GENITO URINARY SYSTEM AND SEX HORMONES	G04	Other urologicals	GENITO URINARY SYSTEM AND SEX HORMONES	Other urologicals	G04BX06	NA	G04B	UROLOGICALS
+PA451446	somatropin recombinant	Somatropin Recombinant	H	"SYSTEMIC HORMONAL PREPARATIONS, EXCLUDING REPRODUCTIVE HORMONES AND INSULINS"	H01	Pituitary and hypothalamic hormones and analogues	"Systemic hormonal preparations, excluding reproductive hormones and insulins"	Pituitary and hypothalamic hormones and analogues	H01AC01	NA	H01A	ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES
+PA450422	methimazole	Methimazole	H	"SYSTEMIC HORMONAL PREPARATIONS, EXCLUDING REPRODUCTIVE HORMONES AND INSULINS"	H03	Thyroid therapy	"Systemic hormonal preparations, excluding reproductive hormones and insulins"	Thyroid therapy	H03BB02	NA	H03B	ANTITHYROID PREPARATIONS
+PA448406	amoxicillin	Amoxicillin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Penicillins with extended spectrum	ANTIINFECTIVES FOR SYSTEMIC USE	Penicillins with extended spectrum	J01CA04	NA	J01C	BETA-LACTAM ANTIBACTERIALS
+PA450842	penicillin g	Penicillin G	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibacterial drugs	Antiinfectives for systemic use	Antibacterial drugs	"J01CE01, S01AA14"	NA	J01C	BETA-LACTAM ANTIBACTERIALS
+PA164745442	penicillin v	Penicillin V	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibacterial drugs	Antiinfectives for systemic use	Antibacterial drugs	J01CE02	NA	J01C	BETA-LACTAM ANTIBACTERIALS
+PA448883	cephalexin	Cephalexin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibacterial drugs	Antiinfectives for systemic use	Antibacterial drugs	J01DB01	NA	J01D	OTHER BETA-LACTAM ANTIBACTERIALS
+PA164744372	amikacin	Amikacin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibiotics	ANTIBACTERIALS FOR SYSTEMIC USE	Antibiotics	J01GB06	NA	J01G	AMINOGLYCOSIDE ANTIBACTERIALS
+PA166241781	isepamicin	Isepamicin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Other aminoglycosides	ANTIINFECTIVES FOR SYSTEMIC USE	Other aminoglycosides	J01GB11	NA	J01G	AMINOGLYCOSIDE ANTIBACTERIALS
+PA450608	neomycin	Neomycin	A	ANTIINFECTIVES FOR SYSTEMIC USE	A01A	Other aminoglycosides	ANTIINFECTIVES FOR SYSTEMIC USE	Other aminoglycosides	J01GB05	NA	J01G	AMINOGLYCOSIDE ANTIBACTERIALS
+PA451704	tobramycin	Tobramycin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibiotics	ANTIBACTERIALS FOR SYSTEMIC USE	Antibiotics	J01GB01	NA	J01G	AMINOGLYCOSIDE ANTIBACTERIALS
+PA450137	kanamycin	Kanamycin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibiotics	ANTIBACTERIALS FOR SYSTEMIC USE	Antibiotics	J01GB04	NA	J01X	OTHER ANTIBACTERIALS
+PA449009	ciprofloxacin	Ciprofloxacin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Fluoroquinolones	ANTIINFECTIVES FOR SYSTEMIC USE	Fluoroquinolones	J01MA02	NA	J01X	OTHER ANTIBACTERIALS
+PA448927	chloramphenicol	Chloramphenicol	D	ANTIINFECTIVES FOR SYSTEMIC USE	D06	Amphenicols	ANTIINFECTIVES FOR SYSTEMIC USE	Amphenicols	J01BA01	NA	J01X	OTHER ANTIBACTERIALS
+PA450640	nitrofurantoin	Nitrofurantoin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Nitrofuran derivatives	ANTIINFECTIVES FOR SYSTEMIC USE	Nitrofuran derivatives	J01XE01	NA	J01X	OTHER ANTIBACTERIALS
+PA451850	vancomycin	Vancomycin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J01	Antibiotics	ANTIBACTERIALS FOR SYSTEMIC USE	Antibiotics	J01XA01	NA	J01X	OTHER ANTIBACTERIALS
+PA451250	rifampin	Rifampin	J	ANTIINFECTIVES FOR SYSTEMIC USE	J04	Antimycobacterials	Antiinfectives for systemic use	Antimycobacterials	J04AB02	NA	J04A	DRUGS FOR TREATMENT OF TUBERCULOSIS
+PA164768835	maraviroc	Maraviroc	J	ANTIINFECTIVES FOR SYSTEMIC USE	J05	Antiviral drugs	Antiinfectives for systemic use	Antiviral drugs	J05AX09	NA	J05A	DIRECT ACTING ANTIVIRALS
+PA166122590	simeprevir	Simeprevir	J	ANTIINFECTIVES FOR SYSTEMIC USE	J05	Antivirals for treatment of HCV infections	ANTIINFECTIVES FOR SYSTEMIC USE	Antivirals for treatment of HCV infections	J05AP05	NA	J05A	DIRECT ACTING ANTIVIRALS
+PA10204	tenofovir	Tenofovir	J	ANTIINFECTIVES FOR SYSTEMIC USE	J05	Antiviral drugs	Antiinfectives for systemic use	Antiviral drugs	J05AF07	NA	J05A	DIRECT ACTING ANTIVIRALS
+PA448926	chlorambucil	Chlorambucil	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Nitrogen mustard analogues	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Nitrogen mustard analogues	L01AA02	NA	L01A	ALKYLATING AGENTS
+PA449197	dacarbazine	Dacarbazine	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Antineoplastic drugs	Antineoplastic and immunomodulating agents	Antineoplastic drugs	L01AX04	NA	L01A	ALKYLATING AGENTS
+PA131625240	raltitrexed	Raltitrexed	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Antineoplastic drugs	Antineoplastic and immunomodulating agents	Antineoplastic drugs	L01BA03	NA	L01B	ANTIMETABOLITES
+PA166115442	tegafur / gimeracil	Tegafur / Gimeracil	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Antineoplastic drugs	Antineoplastic and immunomodulating agents	Antineoplastic drugs	L01BC53	NA	L01B	ANTIMETABOLITES
+PA451877	vinblastine	Vinblastine	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Antineoplastic drugs	Antineoplastic and immunomodulating agents	Antineoplastic drugs	L01CA01	NA	L01C	PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+PA152241907	lapatinib	Lapatinib	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors	L01EH01	NA	L01E	PROTEIN KINASE INHIBITORS
+PA166114943	regorafenib	Regorafenib	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Other protein kinase inhibitors	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Other protein kinase inhibitors	L01EX05	NA	L01E	PROTEIN KINASE INHIBITORS
+PA164749431	gemtuzumab	Gemtuzumab	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Monoclonal antibodies	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Monoclonal antibodies	L01XC05	NA	L01X	OTHER ANTINEOPLASTIC AGENTS
+PA449942	hydroxyurea	Hydroxyurea	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L01	Antineoplastic drugs	Antineoplastic and immunomodulating agents	Antineoplastic drugs	L01XX05	NA	L01X	OTHER ANTINEOPLASTIC AGENTS
+PA166123407	abiraterone	Abiraterone	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L02B	Other hormone antagonists and related agents	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Other hormone antagonists and related agents	L02BX03	NA	L02B	HORMONE ANTAGONISTS AND RELATED AGENTS
+PA449760	glatiramer acetate	Glatiramer Acetate	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Other immunostimulants	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Other immunostimulants	L03AX13	NA	L03A	IMMUNOSTIMULANTS
+PA164779048	"interferon alfa-2a, recombinant"	"Interferon Alfa-2A, Recombinant"	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Immunostimulants drugs	Antineoplastic and immunomodulating agents	Immunostimulants drugs	L03AB04	NA	L03A	IMMUNOSTIMULANTS
+PA164783990	"interferon alfa-2b, recombinant"	"Interferon Alfa-2B, Recombinant"	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Immunostimulants drugs	Antineoplastic and immunomodulating agents	Immunostimulants drugs	L03AB05	NA	L03A	IMMUNOSTIMULANTS
+PA450037	interferon beta-1a	Interferon Beta-1A	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Interferons	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Interferons	L03AB07	NA	L03A	IMMUNOSTIMULANTS
+PA450039	interferon beta-1b	Interferon Beta-1B	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Immunostimulants drugs	Antineoplastic and immunomodulating agents	Immunostimulants drugs	L03AB08	NA	L03A	IMMUNOSTIMULANTS
+PA164784024	peginterferon alfa-2b	Peginterferon Alfa-2B	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L03A	Interferons	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Interferons	L03AB10	NA	L03A	IMMUNOSTIMULANTS
+PA164783958	alemtuzumab	Alemtuzumab	L	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	L04A	Selective immunosuppressants	ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS	Selective immunosuppressants	L04AA34	NA	L04A	IMMUNOSUPPRESSANTS
+PA450595	naproxen	Naproxen	G	MUSCULO-SKELETAL SYSTEM	G02	Antiinflammatory preparations	MUSCULO-SKELETAL SYSTEM	Antiinflammatory preparations	M01AE02	NA	M01A	ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+PA451268	rofecoxib	Rofecoxib	M	MUSCULO-SKELETAL SYSTEM	M01	Coxibs	MUSCULO-SKELETAL SYSTEM	Coxibs	M01AH02	NA	M01A	ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+PA165963961	pegloticase	Pegloticase	M	MUSCULO-SKELETAL SYSTEM	M04A	Other antigout preparations	MUSCULO-SKELETAL SYSTEM	Other antigout preparations	M04AX02	NA	M04A	ANTIGOUT PREPARATIONS
+PA451550	sulfinpyrazone	Sulfinpyrazone	M	MUSCULO-SKELETAL SYSTEM	M04A	Preparations increasing uric acid excretion	MUSCULO-SKELETAL SYSTEM	Preparations increasing uric acid excretion	M04AB02	NA	M04A	ANTIGOUT PREPARATIONS
+PA131890628	tranilast	Tranilast	M	MUSCULOSKELETAL SYSTEM	M04A	Antigout preparations	Musculoskeletal system	Antigout preparations	M04AB	NA	M04A	ANTIGOUT PREPARATIONS
+PA448082	alendronate	Alendronate	M	MUSCULOSKELETAL SYSTEM	M05B	Drugs affecting bone structure and mineralization	Musculoskeletal system	Drugs affecting bone structure and mineralization	M05BA04	NA	M05B	DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+PA451255	risedronate	Risedronate	M	MUSCULOSKELETAL SYSTEM	M05B	Drugs affecting bone structure and mineralization	Musculoskeletal system	Drugs affecting bone structure and mineralization	M05BA07	NA	M05B	DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+PA451688	tiludronate	Tiludronate	M	MUSCULOSKELETAL SYSTEM	M05B	Drugs affecting bone structure and mineralization	Musculoskeletal system	Drugs affecting bone structure and mineralization	M05BA05	NA	M05B	DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+PA10235	zoledronate	Zoledronate	M	MUSCULOSKELETAL SYSTEM	M05B	Drugs affecting bone structure and mineralization	Musculoskeletal system	Drugs affecting bone structure and mineralization	M05BA08	NA	M05B	DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+PA451522	succinylcholine	Succinylcholine	M	MUSCULOSKELETAL SYSTEM	M03	Muscle relaxants	Musculoskeletal system	Muscle relaxants	M03AB01	NA	M09A	OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM
+PA166152940	tolperisone	Tolperisone	M	MUSCULOSKELETAL SYSTEM	M03	Muscle relaxants	Musculoskeletal system	Muscle relaxants	M03BX04	NA	M09A	OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM
+PA450144	ketamine	Ketamine	N	NERVOUS SYSTEM	N01	Anesthetic drugs	Nervous system	Anesthetic drugs	N01AX03	NA	N01A	ANESTHETICS
+PA166115521	trichloroethylene	Trichloroethylene	.	NERVOUS SYSTEM	.	Halogenated hydrocarbons	NERVOUS SYSTEM	Halogenated hydrocarbons	N01AB05	NA	N01A	ANESTHETICS
+PA449072	cocaine	Cocaine	N	NERVOUS SYSTEM	N01	Esters of benzoic acid	NERVOUS SYSTEM	Esters of benzoic acid	N01BC01	NA	N01A	ANESTHETICS
+PA450369	meperidine	Meperidine	N	NERVOUS SYSTEM	N02	Analgesic drugs	Nervous system	Analgesic drugs	N02AB02	NA	N02A	OPIOIDS
+PA166152829	flupirtine	Flupirtine	N	NERVOUS SYSTEM	N02	Other analgesics and antipyretics	NERVOUS SYSTEM	Other analgesics and antipyretics	N02BG07	NA	N02B	OTHER ANALGESICS AND ANTIPYRETICS
+PA166153491	brivaracetam	Brivaracetam	N	NERVOUS SYSTEM	N03A	Antiepileptic drugs	Nervous system	Antiepileptic drugs	N03AX23	NA	N03A	ANTIEPILEPTICS
+PA450206	levetiracetam	Levetiracetam	N	NERVOUS SYSTEM	N03A	Other antiepileptics	NERVOUS SYSTEM	Other antiepileptics	N03AX14	NA	N03A	ANTIEPILEPTICS
+PA450374	methylphenobarbital	Methylphenobarbital	N	NERVOUS SYSTEM	N03A	Antiepileptic drugs	Nervous system	Antiepileptic drugs	N03AA01	NA	N03A	ANTIEPILEPTICS
+PA448360	amantadine	Amantadine	N	NERVOUS SYSTEM	N04	Adamantane derivatives	NERVOUS SYSTEM	Adamantane derivatives	N04BB01	NA	N04B	DOPAMINERGIC AGENTS
+PA451316	selegiline	Selegiline	N	NERVOUS SYSTEM	N04	Monoamine oxidase B inhibitors	NERVOUS SYSTEM	Monoamine oxidase B inhibitors	N04BD01	NA	N04B	DOPAMINERGIC AGENTS
+PA165282097	bromperidol	Bromperidol	N	NERVOUS SYSTEM	N05A	Butyrophenone derivatives	NERVOUS SYSTEM	Butyrophenone derivatives	N05AD06	NA	N05A	ANTIPSYCHOTICS
+PA450267	lorazepam	Lorazepam	N	NERVOUS SYSTEM	N05	Benzodiazepine derivatives	NERVOUS SYSTEM	Benzodiazepine derivatives	N05BA06	NA	N05B	ANXIOLYTICS
+PA450731	oxazepam	Oxazepam	N	NERVOUS SYSTEM	N05	Benzodiazepine derivatives	NERVOUS SYSTEM	Benzodiazepine derivatives	N05BA04	NA	N05B	ANXIOLYTICS
+PA10323	l-tryptophan	L-Tryptophan	N	NERVOUS SYSTEM	N06	Psychoanaleptics	Nervous system	Psychoanaleptics	N06AX02	NA	N06A	ANTIDEPRESSANTS
+PA450322	maprotiline	Maprotiline	N	NERVOUS SYSTEM	N06	Psychoanaleptics	Nervous system	Psychoanaleptics	N06AA21	NA	N06A	ANTIDEPRESSANTS
+PA448408	amphetamine	Amphetamine	N	NERVOUS SYSTEM	N06	Psychoanaleptics	Nervous system	Psychoanaleptics	N06BA01	NA	N06B	PSYCHOSTIMULANTS
+PA449269	dextroamphetamine	Dextroamphetamine	N	NERVOUS SYSTEM	N06	Psychoanaleptics	Nervous system	Psychoanaleptics	N06BA02	NA	N06B	PSYCHOSTIMULANTS
+PA450403	methamphetamine	Methamphetamine	N	NERVOUS SYSTEM	N06	Psychoanaleptics	Nervous system	Psychoanaleptics	N06BA03	NA	N06B	PSYCHOSTIMULANTS
+PA452619	heroin	Heroin	N	NERVOUS SYSTEM	N07	Other nervous system drugs	Nervous system	Other nervous system drugs	N07BC06	NA	N07B	DRUGS USED IN ADDICTIVE DISORDERS
+PA165111698	artemether	Artemether	P	"ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS"	P01	Antiprotozoal drugs	"Antiparasitic products, insecticides and repellents"	Antiprotozoal drugs	P01BE02	NA	P01B	ANTIMALARIALS
+PA164777036	hydroxychloroquine	Hydroxychloroquine	P	"ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS"	P01	Antiprotozoal drugs	"Antiparasitic products, insecticides and repellents"	Antiprotozoal drugs	P01BA02	NA	P01B	ANTIMALARIALS
+PA166115580	tafenoquine	Tafenoquine	P	ANTIPARASITIC PRODUCTS	P01	Aminoquinolines	ANTIPARASITIC PRODUCTS	Aminoquinolines	P01BA07	NA	P01B	ANTIMALARIALS
+PA164769056	tiotropium	Tiotropium	R	RESPIRATORY SYSTEM	R03	Drugs for obstructive airway diseases	Respiratory system	Drugs for obstructive airway diseases	R03BB04	NA	R03B	OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+PA165950341	ivacaftor	Ivacaftor	R	RESPIRATORY SYSTEM	R07A	Other respiratory system products	RESPIRATORY SYSTEM	Other respiratory system products	R07AX02	NA	R03D	OTHER SYSTEMIC DRUGS FOR RESPIRATORY DISEASES
+PA166114483	lumacaftor	Lumacaftor	R	RESPIRATORY SYSTEM	R07A	Other respiratory system products	Respiratory system	Other respiratory system products	R07AX	NA	R03D	OTHER SYSTEMIC DRUGS FOR RESPIRATORY DISEASES
+PA451949	zafirlukast	Zafirlukast	R	RESPIRATORY SYSTEM	R03	Drugs for obstructive airway diseases	Respiratory system	Drugs for obstructive airway diseases	R03DC01	NA	R03D	OTHER SYSTEMIC DRUGS FOR RESPIRATORY DISEASES
+PA451955	zileuton	Zileuton	R	RESPIRATORY SYSTEM	R03	Drugs for obstructive airway diseases	Respiratory system	Drugs for obstructive airway diseases	R03D	NA	R03D	OTHER SYSTEMIC DRUGS FOR RESPIRATORY DISEASES
+PA448018	acetazolamide	Acetazolamide	S	SENSORY ORGANS	S01	Carbonic anhydrase inhibitors	SENSORY ORGANS	Carbonic anhydrase inhibitors	S01EC01	NA	S01E	ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+PA448031	acetylcholine	Acetylcholine	S	SENSORY ORGANS	S01	Parasympathomimetics	SENSORY ORGANS	Parasympathomimetics	S01EB09	NA	S01E	ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+PA164760843	deferasirox	Deferasirox	V	VARIOUS	V03A	Iron chelating agents	VARIOUS	Iron chelating agents	V03AC03	NA	V04C	OTHER DIAGNOSTIC AGENTS
+PA166118041	deferiprone	Deferiprone	.	VARIOUS	.	Iron chelating agents	VARIOUS	Iron chelating agents	V03AC02	NA	V04C	OTHER DIAGNOSTIC AGENTS
+PA449259	dexrazoxane	Dexrazoxane	V	VARIOUS	V03A	Detoxifying agents for antineoplastic treatment	VARIOUS	Detoxifying agents for antineoplastic treatment	V03AF02	NA	V04C	OTHER DIAGNOSTIC AGENTS
+PA165958406	dimercaprol	Dimercaprol	V	VARIOUS	V03A	Antidotes	VARIOUS	Antidotes	V03AB09	NA	V04C	OTHER DIAGNOSTIC AGENTS
+PA10176	rasburicase	Rasburicase	V	VARIOUS	V03A	Detoxifying agents for antineoplastic treatment	VARIOUS	Detoxifying agents for antineoplastic treatment	V03AF07	NA	V04C	OTHER DIAGNOSTIC AGENTS

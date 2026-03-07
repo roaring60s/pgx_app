@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pgx.iml" filepath="$PROJECT_DIR$/.idea/pgx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prj_data2vcf/.idea/prj_asa2vcf.iml" filepath="$PROJECT_DIR$/../prj_data2vcf/.idea/prj_asa2vcf.iml" />
+    </modules>
+  </component>
+</project>

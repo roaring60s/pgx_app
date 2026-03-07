@@ -1,0 +1,413 @@
+Atrasentan	Atrasentan	atrasentan
+Acetaminophen	"Acetaminofen,Paracetamol,Panadol"	acetaminophen
+Coumarin	Coumarin	coumarin
+Cyclosporine	"Cequa,Gengraf,Neoral,Restasis,Sandimmune,Verkazia,Vevye"	cyclosporine
+Dabigatran	Pradaxa	dabigatran
+Dipyrone	Metamizole	dipyrone
+Ethylmorphine	Arkodin	ethylmorphine
+Everolimus	"Afinitor,Votubia,Zortress"	everolimus
+Fentanyl	"Abstral,Actiq,Duragesic,Effentora,Fentora,Instanyl,Lazanda,Sublimaze,Subsys"	fentanyl
+Methoxsalen	"Oxsoralen,Uvadex"	methoxsalen
+Prednisone	"Deltasone,Rayos,Winpred"	prednisone
+Thioguanine	"Lanvis, Tabloid"	thioguanine
+Abacavir	"Epzicom,Kivexa,Triumeq,Trizivir,Ziagen"	abacavir
+Abiraterone	"Yonsa,Zytiga"	abiraterone
+Acamprosate	Campral	acamprosate
+Acenocoumarol	Acenocoumarol	acenocoumarol
+Acetazolamide	Acetazolam	acetazolamide
+Acetylcholine	Miochol	acetylcholine
+Acetylcysteine	Acetadote	acetylcysteine
+Adalimumab	"Amjevita,Cyltezo,Humira,Hyrimoz,Simlandi,Yusimry"	adalimumab
+Agomelatine	Valdoxan	agomelatine
+Alemtuzumab	"Campath,Lemtrada"	alemtuzumab
+Alfentanil	Alfenta	alfentanil
+Allopurinol	"Aloprim,Zyloprim"	allopurinol
+Alprazolam	"Niravam,Xanax"	alprazolam
+Amantadine	"Gocovri,Osmolex"	amantadine
+Amikacin	Arikayce	amikacin
+Amiloride	Midamor	amiloride
+Amiodarone	"Nexterone,Pacerone"	amiodarone
+Amisulpride	Barhemsys	amisulpride
+Amitriptyline	Elavil	amitriptyline
+Amlodipine	"Amlobenz,Azor,Caduet,Dafiro,Exforge,Katerzia,Lotrel,Norliqva,Norvasc,Prestalia,Tribenzor,Twynsta,Viacoram"	amlodipine
+Amodiaquine	Amodiaquine	amodiaquine
+Amoxicillin	"Amoxil,Augmentin,Clavulin,Moxatag,Omeclamox,Prevpac,Talicia,Voquezna"	amoxicillin
+Amprenavir	Agenerase	amprenavir
+Anastrozole	Arimidex	anastrozole
+Angiotensin Ii	Giapreza	angiotensin ii
+Apixaban	Eliquis	apixaban
+Aripiprazole	Abilify	aripiprazole
+Artesunate	Artesunate	artesunate
+Asparaginase	"Rylaze,Spectrila"	asparaginase
+Ataluren	Translarna	ataluren
+Atazanavir	"Evotaz,Reyataz"	atazanavir
+Atenolol	"Tenoretic,Tenormin"	atenolol
+Atomoxetine	Strattera	atomoxetine
+Atorvastatin	"Atorvaliq,Caduet,Lipitor,Lypqozet"	atorvastatin
+Axitinib	Inlyta	axitinib
+Azathioprine	"Azasan,Imuran"	azathioprine
+Benazepril	"Amlobenz,Lotensin,Lotrel"	benazepril
+Bevacizumab	"Avastin,Mvasi"	bevacizumab
+Bisoprolol	Ziac	bisoprolol
+Bleomycin	Blenoxane	bleomycin
+Boceprevir	Victrelis	boceprevir
+Bortezomib	Velcade	bortezomib
+Bromperidol	Bromperidol	bromperidol
+Budesonide	"Airsupra,Breyna,Breztri,Cortiment,Entocort,Eohilia,Pulmicort,Rhinocort,Symbicort,Tarpeyo,Uceris"	budesonide
+Bumetanide	"Bumex,Burinex"	bumetanide
+Buprenorphine	"Belbuca,Brixadi,Buprenex,Buprenorphine,Butrans,Sublocade,Suboxone,Subutex,Zubsolv"	buprenorphine
+Bupropion	"Aplenzin,Auvelity,Budeprion,Contrave,Forfivo,Wellbutrin,Zyban"	bupropion
+Busulfan	"Busulfex,Myleran"	busulfan
+Butorphanol	Stadol	butorphanol
+Caffeine	"Anacin,Exaprin,Excedrin,Fioricet,Midol,Migergot,Norgesic,Orbivan,Orphengesic,Peyona,Trezix,Trianal,Triatec,Vanatol,Vanquish,Vivarin"	caffeine
+Candesartan	Candesartan	candesartan
+Cangrelor	"Kengreal,Kengrexal"	cangrelor
+Cannabinoids	Cannabinoid	cannabinoids
+Capecitabine	"Ecansya,Xeloda"	capecitabine
+Captopril	Captopril	captopril
+Carbamazepine	"Carbatrol,Carnexiv,Epitol,Equetro,Tegretol"	carbamazepine
+Carbimazole	Carbimazole	carbimazole
+Carbocisteine	Carbocisteine	carbocisteine
+Carboplatin	Paraplatin	carboplatin
+Carvedilol	Coreg	carvedilol
+Cefotaxime	Claforan	cefotaxime
+Ceftriaxone	Rocephin	ceftriaxone
+Celecoxib	"Celebrex,Elyxyb,Seglentis"	celecoxib
+Cerivastatin	Baycol	cerivastatin
+Cetuximab	Erbitux	cetuximab
+Chlorambucil	Leukeran	chlorambucil
+Chloramphenicol	Chloromycetin	chloramphenicol
+Chlorothiazide	Diuril	chlorothiazide
+Chlorpromazine	Chlorprom	chlorpromazine
+Ciprofloxacin	"Cetraxal,Ciloxan,Cipro,Ciprodex,Ciprofloxacin,Otiprio,Otixal,Otovel,Proquin"	ciprofloxacin
+Cisplatin	Platinol	cisplatin
+Citalopram	Celexa	citalopram
+Cladribine	"Litak,Mavenclad"	cladribine
+Clindamycin	"Acanya,Benzaclin,Biacna,Cabtreo,Cleocin,Clindacin,Clindagel,Clindesse,Clindoxyl,Dalacin,Evoclin,Neuac,Onexton,Veltin,Xaciato,Ziana"	clindamycin
+Clobazam	"Onfi,Sympazan"	clobazam
+Clomipramine	Anafranil	clomipramine
+Clonidine	"Catapres,Duraclon,Kapvay,Nexiclon XR"	clonidine
+Clopidogrel	"Duoplavin,Plavix,Zyllt"	clopidogrel
+Clozapine	"Clozaril,Fazaclo,Versacloz"	clozapine
+Cocaine	"Goprelto,Numbrino"	cocaine
+Codeine	"Ascomp,Cheratussin,Cheratussin Dac,Codar,Codeine Contin,Covan"	codeine
+Conjugated Estrogens	"Congest,Duavee,Duavive,Premarin,Premphase,Prempro"	conjugated estrogens
+Cyanocobalamin	"B-12,Cobex,Dodex"	cyanocobalamin
+Cyclophosphamide	Procytox	cyclophosphamide
+Cytarabine	"Cytosar,Vyxeos"	cytarabine
+Daclatasvir	Daclatasvir	daclatasvir
+Dapoxetine	Priligy	dapoxetine
+Dapsone	Aczone	dapsone
+Daptomycin	"Cubicin,Dapzura"	daptomycin
+Dasatinib	Sprycel	dasatinib
+Daunorubicin	"Cerubidine,Vyxeos"	daunorubicin
+Debrisoquine	Debrisoquine	debrisoquine
+Deferasirox	"Exjade,Jadenu"	deferasirox
+Deferiprone	Ferriprox	deferiprone
+Desflurane	Suprane	desflurane
+Desipramine	Norpramin	desipramine
+Desloratadine	"Aerius,Clarinex,Neoclarityn"	desloratadine
+Dexamethasone	"Baycadron,Ciprodex,Decadron,Dexamethasone Intensol,Dextenza,Dioptrol,Hexadrol,Hidex,Maxidex,Maxitrol,Neofordex,Ozurdex,Taperdex,Tobradex,Zcort"	dexamethasone
+Dexlansoprazole	Dexilant	dexlansoprazole
+Dexmedetomidine	"Dexdor,Igalmi,Precedex"	dexmedetomidine
+Dexrazoxane	"Cardioxane,Savene,Totect,Zinecard"	dexrazoxane
+Dextromethorphan	"Auvelity,Benylin,Broncotron,Cepacol,Robitussin,Safetussin,Sudafed,Tusnel"	dextromethorphan
+Diazepam	"Diastat,Valium"	diazepam
+Diclofenac	"Aleve,Arthrotec,Cambia,Cataflam,Flector,Licart,Lofena,Pennsaid,Previdolrx,Salonpas,Solaraze,Voltaren,Voltaren Emulgel,Zipsor,Zorvolex"	diclofenac
+Dicloxacillin	Truemed Group LLC	dicloxacillin
+Didanosine	Videx	didanosine
+Digoxin	"Digox,Lanoxin"	digoxin
+Dihydrocodeine	"Dvorah,Trezix"	dihydrocodeine
+Dihydrostreptomycin	Dihydrostreptomycin	dihydrostreptomycin
+Diltiazem	"Cardizem,Cartia,Matzim,Taztia,Tiadylt,Tiazac"	diltiazem
+Dimercaprol	Bal In Oil	dimercaprol
+Dimethyl Fumarate	Tecfidera	dimethyl fumarate
+Disopyramide	"Norpace,Rythmodan"	disopyramide
+Disulfiram	Antabuse	disulfiram
+Dobutamine	Dobutamine	dobutamine
+Docetaxel	"Docivyx,Taxotere"	docetaxel
+Dolasetron	Anzemet	dolasetron
+Dolutegravir	"Dovato,Juluca,Tivicay,Triumeq"	dolutegravir
+Donepezil	"Adlarity,Aricept,Namzaric"	donepezil
+Doxepin	"Prudoxin,Silenor,Sinequan,Zonalon"	doxepin
+Doxorubicin	"Adriamycin,Doxil,Myocet"	doxorubicin
+Duloxetine	"Cymbalta,Drizalma,Irenka,Yentreve"	duloxetine
+Eculizumab	Soliris	eculizumab
+Efavirenz	"Atripla,Stocrin,Sustiva,Symfi"	efavirenz
+Enalapril	"Epaned,Vaseretic,Vasotec"	enalapril
+Enflurane	Enflurane	enflurane
+Entacapone	"Comtan,Comtess,Stalevo"	entacapone
+Ephedrine	"Akovaz,Bronkaid,Corphedra,Emerphed,Primatene,Rezipres"	ephedrine
+Epirubicin	"Ellence,Pharmorubicin PFS"	epirubicin
+Erlotinib	Tarceva	erlotinib
+Erythromycin	"Aktipak,Benzamycin,Erygel,Eryped,Erythro,Stearate"	erythromycin
+Escitalopram	"Cipralex,Lexapro"	escitalopram
+Esomeprazole	"Nexium,Vimovo"	esomeprazole
+Estradiol	"Activella,Activelle,Amabelz,Angeliq,Bijuva,Climara,Combipatch,Divigel,Dotti,Elestrin,Estalis,Estrace,Estradot,Estring,Estrogel,Etyqa,Evamist,Imvexxy,Lopreeza,Lyllana,Menostar,Mimvey,Minivelle,Myfembree,Oesclim,Oriahnn,Prefes,Vagifem,Vivelle,Yuvafem"	estradiol
+Etanercept	"Enbrel,Eticovo"	etanercept
+Ethambutol	"Etibi,Myambutol"	ethambutol
+Ethanol	"Alcohol,Ethanol"	ethanol
+Etoposide	"Etopophos,Vepesid"	etoposide
+Etravirine	Intelence	etravirine
+Exemestane	Aromasin	exemestane
+Fenofibrate	"Antara,Cholib,Fenoglide,Fenomax,Lipidil Supra,Lipofen,Tricor,Triglide"	fenofibrate
+Fesoterodine	Toviaz	fesoterodine
+Fexofenadine	"Allegra,Mucinex,Wal-fex"	fexofenadine
+Flecainide	Tambocor	flecainide
+Flucloxacillin	Fluclox	flucloxacillin
+Fluindione	Fluindione	fluindione
+Fluorouracil	"Actikerall,Carac,Efudex,Fluoroplex,Tolak,Adrucil"	fluorouracil
+Fluoxetine	"Prozac,Sarafem,Symbyax"	fluoxetine
+Flupirtine	Flupirtine	flupirtine
+Fluvastatin	Lescol	fluvastatin
+Fluvoxamine	Luvox	fluvoxamine
+Furosemide	"Furoscix,Lasix"	furosemide
+Gabapentin	"Gralise,Neurontin"	gabapentin
+Galantamine	Razadyne	galantamine
+Gefitinib	Iressa	gefitinib
+Gemcitabine	Gemzar	gemcitabine
+Gemtuzumab Ozogamicin	Mylotarg	gemtuzumab ozogamicin
+Glatiramer Acetate	"Copaxone,Glatect,Glatopa"	glatiramer acetate
+Gliclazide	Diamicron	gliclazide
+Glimepiride	"Duetact,Tandemact"	glimepiride
+Glipizide	Glucotrol	glipizide
+Granisetron	"Sancuso,Sustol"	granisetron
+Haloperidol	Haldol	haloperidol
+Halothane	Fluothane Anesthetic	halothane
+Hmg Coa Reductase Inhibitors	Hmg Coa Reductase Inhibitors	hmg coa reductase inhibitors
+Hydralazine	"Apresoline,Bidil"	hydralazine
+Hydrochlorothiazide	"Accuretic,Actelsar Hct,Aldactazide,Altace HCT,Atacand,Avalide,Benicar Hct,Diovan Hct,Exforge Hct,Hyzaar,Ifirmacombi,Karvezide,Lopressor Hct,Lotensin Hct,Maxzide"	hydrochlorothiazide
+Hydrocodone	"Dalmacol,Hycet,Hycodan,Hydromet,Hysingla,Lorcet,Lortab,Norco,Obredon,Reprexain,Tussicaps,Tussionex,Vicoprofen,Xodol,Zamicet,Zohydro,Zydone"	hydrocodone
+Idarubicin	Idamycin	idarubicin
+Iloperidone	Fanapt	iloperidone
+Imatinib	"Gleevec,Glivec"	imatinib
+Imipramine	Tofranil	imipramine
+Imiquimod	"Aldara,Vyloma,Zyclara"	imiquimod
+Indinavir	Crixivan	indinavir
+Infliximab	"Avsola,Flixabi,Inflectra,Remicade,Renflexis"	infliximab
+Interferon Beta-1A	"Avonex,Rebif"	interferon beta-1a
+Interferons	Interferon	interferons
+Irbesartan	"Avalide,Avapro,Ifirmacombi,Karvea,Karvezide"	irbesartan
+Irinotecan	"Camptosar,Onivyde"	irinotecan
+Isepamicin	Isepamicin	isepamicin
+Isoflurane	"Forane,Terrell"	isoflurane
+Isoniazid	"Isonarif,Isotamine,Rifamate,Rifater"	isoniazid
+Itopride	Itopride	itopride
+Ivacaftor	"Kalydeco,Orkambi,Symdeko,Trikafta"	ivacaftor
+Lamotrigine	Lamictal	lamotrigine
+Lansoprazole	"Prevacid,Prevpac"	lansoprazole
+Lapatinib	"Tykerb,Tyverb"	lapatinib
+Latanoprost	"Iyuzeh,Rocklatan,Xalacom,Xalatan,Xelpros"	latanoprost
+Leflunomide	Arava	leflunomide
+Letermovir	Prevymis	letermovir
+Letrozole	Femara	letrozole
+Levetiracetam	"Elepsia,Keppra,Matever,Roweepra,Spritam"	levetiracetam
+Levodopa	"Dhivy,Duodopa,Inbrija,Parcopa,Prolopa,Rytary,Sinemet,Stalevo"	levodopa
+Liraglutide	"Saxenda,Victoza,Xultophy"	liraglutide
+Lisinopril	"Prinivil,Qbrelis,Zestoretic,Zestril"	lisinopril
+Lorazepam	"Ativan,Loreev"	lorazepam
+Lornoxicam	Lornoxicam	lornoxicam
+Losartan	"Cozaar,Hyzaar"	losartan
+Lovastatin	"Advicor,Altoprev"	lovastatin
+Lurasidone	Latuda	lurasidone
+Meloxicam	"Anjeso,Mobic,Qmiiz,Vivlodex,Zynrelef"	meloxicam
+Melphalan	"Alkeran,Evomela,Hepzato"	melphalan
+Memantine	"Axura,Ebixa,Marixino,Namenda,Namzaric"	memantine
+Mephenytoin	Mesantoin	mephenytoin
+Mercaptopurine	"Purixan,Purinethol"	mercaptopurine
+Metformin	"Actoplus Met,Avandamet,Fortamet,Glucophage,Glucovance,Glumetza,Glycon,Invokamet,Janumet,Jentadueto,Kazano,Kombiglyze,Qternmet,Riomet,Segluromet,Synjardy,Trijardy,Velmetia,Xigduo,Zituvimet"	metformin
+Methacholine	Provocholine	methacholine
+Methadone	"Diskets,Dolophine,Metadol,Methadose"	methadone
+Methazolamide	Methazolamide	methazolamide
+Methotrexate	"Metoject,Nordimet,Otrexup,Rasuvo,Reditrex,Trexall,Xatmep"	methotrexate
+Methoxyflurane	Penthrox	methoxyflurane
+Methylphenidate	"Aptensio,Biphentin,Concerta,Cotempla,Daytrana,Foquest,Jornay,Metadate,Methylin,Quillichew,Quillivant,Relexxii,Ritalin"	methylphenidate
+Methylprednisolone	"Depo-medrol,Hybrisil,Medrol,Medroloan Suik,Readysharp"	methylprednisolone
+Metoprolol	"Kapspargo,Lopressor,Toprol"	metoprolol
+Metronidazole	"Flagyl,Likmez,Metrocream,Metrogel,Metrolotion,Nidagel,Noritate,Nuvessa,Pylera,Rosadan,Vandazole"	metronidazole
+Mexiletine	Mexiletine HCl	mexiletine
+Mianserin	Mianserin	mianserin
+Micronomicin	Micronomicin	micronomicin
+Midazolam	"Buccolam,Busulfex,Nayzilam,Seizalam"	midazolam
+Migalastat	Galafold	migalastat
+Milnacipran	Savella	milnacipran
+Minocycline	"Amzeeq,Arestin,Dynacin,Minocin,Minolira,Solodyn,Ximino,Zilxi"	minocycline
+Mirtazapine	Remeron	mirtazapine
+Mitotane	Lysodren	mitotane
+Mitoxantrone	Mitoxantrone Injection	mitoxantrone
+Mizolastine	Mizolastine	mizolastine
+Modafinil	Provigil	modafinil
+Montelukast	Singulair	montelukast
+Morphine	"Arymo,Avinza,Duramorph,Embeda,Infumorph,Kadian,MSIR,Mitigo,Contin,Statex"	morphine
+Mycophenolic Acid	Myfortic	mycophenolic acid
+Naloxone	"Kloxxado,Narcan,Suboxone,Targin,Targiniq,Zimhi,Zubsolv"	naloxone
+Naltrexone	"Contrave,Embeda,Vivitrol"	naltrexone
+Naproxen	"Aleve,Anaprox,Naprelan,Naprosyn,Sallus,Sudafed,Treximet,Vimovo"	naproxen
+Nedocromil	Alocril	nedocromil
+Nefazodone	Nefazodone Hydrochloride	nefazodone
+Nelfinavir	Viracept	nelfinavir
+Neomycin	"Cortisporin,Dioptrol,Diosporin,Diphen,Maxitrol,Neo-polycin,Neo-synalar,Neospor,Procomycin,Statrol,Viaderm Kc"	neomycin
+Nevirapine	Viramune	nevirapine
+Nicotine	"Habitrol,Nicoderm C-Q,Nicorelief,Nicorette,Nicotrol"	nicotine
+Nifedipine	"Adalat,Afeditab CR,Nifediac,Nifedical,Procardia"	nifedipine
+Nilotinib	Tasigna	nilotinib
+Nimodipine	"Nimotop,Nymalize"	nimodipine
+Nitrendipine	Nitrendipine	nitrendipine
+Nitrofurantoin	"Furadantin,Macrobid,Macrodantin"	nitrofurantoin
+Nitroprusside	"Nipride,Nitropress"	nitroprusside
+Nitrous Oxide	Alnox	nitrous oxide
+Nortriptyline	"Aventyl,Pamelor"	nortriptyline
+Olanzapine	"Lybalvi,Olazax,Symbyax,Zalasta,Zypadhera,Zyprexa"	olanzapine
+Omeprazole	"Konvomep,Losec,Omeclamox,Omesec,Previdolrx,Prilosec"	omeprazole
+Ondansetron	"Zofran,Zuplenz"	ondansetron
+Oseltamivir	"Ebilfumin,Tamiflu"	oseltamivir
+Oxaliplatin	Oxaliplatin	oxaliplatin
+Oxazepam	Oxpam	oxazepam
+Oxcarbazepine	"Oxtellar,Trileptal"	oxcarbazepine
+Oxycodone	"Endocet,Nalocet,Oxaydo,Oxycontin,Oxyneo,Percocet,Prolate,Rivacocet,Roxicet,Roxicodone,Roxybond,Targin,Targiniq,Xolox,Xtampza"	oxycodone
+Paclitaxel	"Abraxane,Taxol"	paclitaxel
+Paliperidone	"Invega,Invega Hafyera,Xeplion"	paliperidone
+Palonosetron	"Akynzeo,Aloxi"	palonosetron
+Panitumumab	Vectibix	panitumumab
+Pantoprazole	"Protonix,Somac,Tecta"	pantoprazole
+Paroxetine	"Paxil,Pexeva"	paroxetine
+Pazopanib	Votrient	pazopanib
+Pegaptanib	Macugen	pegaptanib
+Pegaspargase	Oncaspar	pegaspargase
+Peginterferon Alfa-2A	Pegasys	peginterferon alfa-2a
+Peginterferon Alfa-2B	"Pegintron,Sylatron"	peginterferon alfa-2b
+Pegloticase	Krystexxa	pegloticase
+Pemetrexed	"Alimta,Ciambra,Pemfexy,Pemrydi Rtu"	pemetrexed
+Perindopril	"Aceon,Coversyl,Prestalia,Viacoram"	perindopril
+Perphenazine	Perphenazine	perphenazine
+Phenazopyridine	"Phenazo,Pyridium,Uristat,Urobiotic"	phenazopyridine
+Phenobarbital	"Donnatal,Luminal,Phenobarb,Phenohytro,Sezaby"	phenobarbital
+Phenprocoumon	Phenprocoumon	phenprocoumon
+Phenylephrine	Biorphen	phenylephrine
+Phenytoin	"Dilantin,Phenytek"	phenytoin
+Pioglitazone	"Actoplus Met,Actos,Duetact,Incresync,Oseni,Tandemact"	pioglitazone
+Piroxicam	Feldene	piroxicam
+Pitavastatin	"Livalo,Zypitamag"	pitavastatin
+Pramipexole	"Mirapex,Mirapexin,Sifrol"	pramipexole
+Prasugrel	Effient	prasugrel
+Pravastatin	Pravachol	pravastatin
+Prednisolone	Millipred	prednisolone
+Pregabalin	Lyrica	pregabalin
+Primaquine	Primaquine	primaquine
+Prochlorperazine	"Compazine,Compro"	prochlorperazine
+Propafenone	Rythmol	propafenone
+Propofol	Diprivan	propofol
+Propranolol	"Hemangeol,Hemangiol,Inderal,Innopran"	propranolol
+Propylthiouracil	"Procasil,Propacil,Propilthiouracil,Prothiucil,Prothiurone,Prothycil,Prothyran,Protiural,Thiuragyl"	propylthiouracil
+Pyrazinamide	"Rifater,Tebrazid"	pyrazinamide
+Pyrimethamine	Daraprim	pyrimethamine
+Quetiapine	Seroquel	quetiapine
+Quinapril	"Accupril,Accuretic"	quinapril
+Quinidine	Nuedexta	quinidine
+Rabeprazole	"Aciphex,Pariet"	rabeprazole
+Raloxifene	"Evista,Optruma"	raloxifene
+Ramipril	Altace	ramipril
+Ranibizumab	"Byooviz,Cimerli,Lucentis,Susvimo"	ranibizumab
+Rasagiline	Azilect	rasagiline
+Rasburicase	"Elitek,Fasturtec"	rasburicase
+Regadenoson	Lexiscan	regadenoson
+Regorafenib	Stivarga	regorafenib
+Remifentanil	Ultiva	remifentanil
+Repaglinide	"Enyglid,Gluconorm,Prandin"	repaglinide
+Ribavirin	"Ibavyr,Rebetol,Virazole"	ribavirin
+Risperidone	"Perseris,Risperdal,Rykindo,Uzedy"	risperidone
+Ritodrine	Yutopar	ritodrine
+Ritonavir	"Kaletra,Norvir,Paxlovid,Viekira"	ritonavir
+Rituximab	"MabThera,Riabni,Rituxan,Rituxan Hycela,Ruxience,Truxima"	rituximab
+Rivaroxaban	Xarelto	rivaroxaban
+Rivastigmine	"Exelon,Nimvastid,Prometax"	rivastigmine
+Rofecoxib	Vioxx	rofecoxib
+Rosiglitazone	"Avandamet,Avandia"	rosiglitazone
+Rosuvastatin	"Crestor,Ezallor,Roszet"	rosuvastatin
+Salbutamol	"Airomir,Airsupra,Combivent,Proair,Proventil,Ventolin"	salbutamol
+Salicylamide	Salicylamide	salicylamide
+Salmeterol	"Advair,Airduo,Serevent,Wixela"	salmeterol
+Selegiline	"Emsam,Zelapar,Eldepryl"	selegiline
+Sertraline	Zoloft	sertraline
+Sevoflurane	"Sevorane,Sojourn,Ultane"	sevoflurane
+Sibutramine	Meridia	sibutramine
+Sildenafil	"Liqrev,Revatio,Viagra,Vizarsin"	sildenafil
+Simeprevir	Galexos	simeprevir
+Simvastatin	"Cholib,FloLipid,Simcor,Vytorin,Zocor"	simvastatin
+Siponimod	Mayzent	siponimod
+Sirolimus	"Fyarro,Hyftor,Rapamune,Rapamycin"	sirolimus
+Sitagliptin	"Janumet,Januvia,Ristaben,Steglujan,Tesavel,Velmetia,Xelevia,Zituvimet,Zituvio"	sitagliptin
+Sofosbuvir	"Epclusa,Harvoni,Sovaldi,Vosevi"	sofosbuvir
+Sorafenib	Nexavar	sorafenib
+Sotalol	"Betapace,Sorine,Sotylize"	sotalol
+Spironolactone	"Aldactazide,Aldactone,Carospir"	spironolactone
+Stavudine	Zerit	stavudine
+Streptomycin	Streptomycin	streptomycin
+Sufentanil	"Dsuvia,Sufenta"	sufentanil
+Sulfamethoxazole	"Bactrim,Septra,Sulfatrim"	sulfamethoxazole
+Sulfasalazine	"Azulfidine,Salazopyrin"	sulfasalazine
+Sulfinpyrazone	Sulfinpyrazone	sulfinpyrazone
+Sulindac	Clinoril	sulindac
+Sumatriptan	"Imitrex,Onzetra,Sumavel,Tosymra,Treximet,Zembrace"	sumatriptan
+Sunitinib	Sutent	sunitinib
+Tacrolimus	"Advagraf,Astagraf,Envarsus,Modigraf,Prograf,Protopic"	tacrolimus
+Tafenoquine	"Arakoda,Krintafel"	tafenoquine
+Talinolol	talinolol	talinolol
+Tamoxifen	Soltamox	tamoxifen
+Tapentadol	Nucynta	tapentadol
+Tegafur	Teysuno	tegafur
+Telaprevir	Incivek	telaprevir
+Telmisartan	"Actelsar,Micardis,Pritor,Twynsta"	telmisartan
+Temozolomide	"Temodar,Temomedac"	temozolomide
+Temsirolimus	Torisel	temsirolimus
+Tenoxicam	Mobiflex	tenoxicam
+Terbutaline	Bricanyl	terbutaline
+Testosterone	"Androderm,Androgel,Axiron,Fortesta,Natesto,Striant,Testim,Testopel,Vogelxo"	testosterone
+Thalidomide	Thalomid	thalidomide
+Thiazolidinediones	Thiazolidinediones	thiazolidinediones
+Thioridazine	Mellaril	thioridazine
+Thiotepa	Tepadina	thiotepa
+Thyrotropin Alfa	Thyrogen	thyrotropin alfa
+Tianeptine	Tianeptine	tianeptine
+Ticagrelor	"Brilinta,Brilique"	ticagrelor
+Ticlopidine	Ticlid	ticlopidine
+Timolol	"Azarga,Betimol,Combigan,Cosopt,Duotrav,Istalol,Timoptic,Xalacom"	timolol
+Tobramycin	"Bethkis,Kitabis,Tobi,Tobradex,Tobrex,Zylet"	tobramycin
+Tocilizumab	Actemra	tocilizumab
+Tolbutamide	Mobenol	tolbutamide
+Tolterodine	"Detrol,Detrusitol"	tolterodine
+Topiramate	"Eprontia,Qsymia,Qudexy,Topamax,Trokendi"	topiramate
+Topotecan	Hycamtin	topotecan
+Torasemide	"Demadex,Soaanz"	torasemide
+Tramadol	"Conzip,Durela,Qdolo,Ralivia,Ryzolt,Seglentis,Tridural,Ultracet,Ultram,Zytram"	tramadol
+Trandolapril	"Mavik,Tarka"	trandolapril
+Trastuzumab	"Herceptin,Herzuma,Kanjinti,Ontruzant,Phesgo,Trazimera"	trastuzumab
+Triamcinolone	"Allernaze,Aristocort,Aristocort R,Juulissa Pharmapak,Kenalog,Kourzeq,Marcaine,Nasacort,Oracort,Oralone,Pediaderm Ta,Triaderm,Trianex,Triderm,Triesence,Triloan Suik,Tritocin,Viaderm Kc,Xipere,Zilretta"	triamcinolone
+Trichloroethylene	Trichloroethylene	trichloroethylene
+Trifluoperazine	Stelazine Tab 10mg	trifluoperazine
+Trifluridine	"Lonsurf,Viroptic"	trifluridine
+Trimethoprim	"Bactrim,Septra,Sulfatrim"	trimethoprim
+Trimipramine	Surmontil	trimipramine
+Troglitazone	Troglitazone	troglitazone
+Tropisetron	Tropisetron	tropisetron
+Urofollitropin	Urofollitropin	urofollitropin
+Ustekinumab	Stelara	ustekinumab
+Valganciclovir	Valcyte	valganciclovir
+Valproic Acid	"Depakene,Depakote,Epival"	valproic acid
+Vancomycin	"Firvanq,Vancocin"	vancomycin
+Vardenafil	"Levitra,Staxyn"	vardenafil
+Varenicline	"Champix,Chantix,Tyrvaya"	varenicline
+Venlafaxine	Effexor	venlafaxine
+Verapamil	"Calan,Isoptin,Tarka,Verelan"	verapamil
+Vildagliptin	"Galvus,Jalra,Xiliarx"	vildagliptin
+Vincristine	"Marqibo,Vincasar"	vincristine
+Vindesine	Eldisine	vindesine
+Vinorelbine	Navelbine	vinorelbine
+Vitamin K	Mephyton	vitamin k
+Voriconazole	Vfend	voriconazole
+Vortioxetine	"Brintellix,Trintellix"	vortioxetine
+Warfarin	"Coumadin,Jantoven"	warfarin
+Zidovudine	"Combivir,Retrovir,Trizivir"	zidovudine
+Ziprasidone	"Geodon,Zeldox"	ziprasidone
+Zonisamide	"Zonegran,Zonisade"	zonisamide
+Zuclopenthixol	"Clopixol,Clopixol Acuphase,Clopixol Depot"	zuclopenthixol
