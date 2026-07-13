@@ -84,7 +84,7 @@ echo "Step 0-B: Generating 7 Columns ASA file from ASA for $name @: $(date)"
 echo ""
 
 #----------------------------------------------------------------------------------------------------------------------
-#	For MGRC the range is sed '1,9d'
+#	For MGRC the range is sed '1,10d'
 #	For AGTC the range is sed '1,11d'
 #	From ASA are extracted:
 #	Col  1 = SNP Name
@@ -102,7 +102,7 @@ echo ""
 if [[ "$lab" == "AGTC" ]]; then
   sed '1,11d' "$asa_in" | awk '{FS=OFS="\t"} {print $1,$2,$5,$23,$27,$17,$18}' > $asa_out  # Delete the first 11 lines if lab is AGTC, then extract 7 columns
 elif [[ "$lab" == "MGRC" ]]; then
-  sed '1,10d' "$asa_in" | awk '{FS=OFS="\t"} {print $1,$2,$5,$23,$27,$17,$18}' > $asa_out  # Delete the first 9 lines if lab is MGRC,, extract 7 columns
+  sed '1,10d' "$asa_in" | awk '{FS=OFS="\t"} {print $1,$2,$5,$23,$27,$17,$18}' > $asa_out  # Delete the first 10 lines if lab is MGRC, extract 7 columns
 else
   echo "Invalid lab value."  # Handle cases where the lab value is neither MGRC nor AGTC
 fi
