@@ -284,7 +284,15 @@ echo ""
 time "$pythonbin" "$pythond/fnc_pgx_table2_step23_05_12_24.py" "$bio_path" "$dir_path"
 
 echo ""
-echo '===============================  STEP 24, Copying Final Files ======================================='
+echo '===============================  STEP 24, Natural-Sorting Gene Table HAP Column ======================================='
+echo "                                            $name @: $(date)"
+echo ""
+
+time "$pythonbin" "$pythond/gene_sorting_01.py" "$bio_path" "$dir_path"
+wait
+
+echo ""
+echo '===============================  STEP 25, Copying Final Files ======================================='
 echo "                                            $name @: $(date)"
 echo ""
 
