@@ -64,6 +64,15 @@ def pgx_var_step1(file1, file2, no1, no2, no3, no4, no5, no6, no7):
             fileout = open(path_out, "w+")
             print(f"Selecting SNPs for PGX Variants: Sample Count {counter}, for sample: {pgx_idx}")
 
+            sample_index = {}
+            with open(path_in, "r") as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split("\t")
+                    name2 = ls2[no4]
+                    al1 = ls2[no5]
+                    al2 = ls2[no6]
+                    sample_index.setdefault(name2, []).append((al1, al2))
+
             with open(file2, "r")as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split("\t")
@@ -74,26 +83,19 @@ def pgx_var_step1(file1, file2, no1, no2, no3, no4, no5, no6, no7):
                     gt01 = "0/1"
                     gt11 = "1/1"
 
-                    with open(path_in, "r") as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split("\t")
-                            name2 = ls2[no4]
-                            al1 = ls2[no5]
-                            al2 = ls2[no6]
+                    for al1, al2 in sample_index.get(name1, []):
+                        if al1 == "-" and al2 == "-":
+                            continue
 
-                            if name1 == name2:
-                                if al1 == "-" and al2 == "-":
-                                    continue
-
-                                if al1 == al2 and al1 == ref1:
-                                    # noinspection PyTypeChecker
-                                    print(s.join(ls1), gt00, 0, sep="\t", file=fileout)
-                                if al1 == al2 and al1 == alt1:
-                                    # noinspection PyTypeChecker
-                                    print(s.join(ls1), gt11, 2, sep="\t", file=fileout)
-                                if al1 != al2:
-                                    # noinspection PyTypeChecker
-                                    print(s.join(ls1), gt01, 1, sep="\t", file=fileout)
+                        if al1 == al2 and al1 == ref1:
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), gt00, 0, sep="\t", file=fileout)
+                        if al1 == al2 and al1 == alt1:
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), gt11, 2, sep="\t", file=fileout)
+                        if al1 != al2:
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), gt01, 1, sep="\t", file=fileout)
 
             fileout.close()
 

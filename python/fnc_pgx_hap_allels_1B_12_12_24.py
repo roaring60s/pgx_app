@@ -58,6 +58,14 @@ def match_field(file1, file2):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            path_in_rows = []
+            with open(path_in, "r") as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split(s)
+                    name2 = ls2[1]
+                    gt_val = ls2[20]
+                    path_in_rows.append((name2, gt_val))
+
             with open(file2, "r") as p1:
                 # score = []
                 for ln1 in p1:
@@ -70,29 +78,24 @@ def match_field(file1, file2):
                     hap_al = hap.split("*")[1]
                     score = []
 
-                    with open(path_in, "r") as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split(s)
-                            name2 = ls2[1]
-                            gt_val = ls2[20]
-
-                            for rs in name1:
-                                if rs == name2:
-                                    score.append(gt_val)
-                        if len(score) > 0:
-                            if any(item == "0" for item in score):
-                                # noinspection PyTypeChecker
-                                print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*1/*1", sep=s, file=fileout)
-                                # score.clear()
-                            if all(item != "0" for item in score) and any(item != "2" for item in score):
-                                # noinspection PyTypeChecker
-                                print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*1/*" + hap_al, sep=s, file=fileout)
-                                # score.clear()
-                            if all(item == "2" for item in score):
-                                # noinspection PyTypeChecker
-                                print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*" + hap_al + "/*" + hap_al,
-                                      sep=s, file=fileout)
-                                # score.clear()
+                    for name2, gt_val in path_in_rows:
+                        for rs in name1:
+                            if rs == name2:
+                                score.append(gt_val)
+                    if len(score) > 0:
+                        if any(item == "0" for item in score):
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*1/*1", sep=s, file=fileout)
+                            # score.clear()
+                        if all(item != "0" for item in score) and any(item != "2" for item in score):
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*1/*" + hap_al, sep=s, file=fileout)
+                            # score.clear()
+                        if all(item == "2" for item in score):
+                            # noinspection PyTypeChecker
+                            print(s.join(ls1), sp.join(score), hap_gene, hap_al, "*" + hap_al + "/*" + hap_al,
+                                  sep=s, file=fileout)
+                            # score.clear()
 
         fileout.close()
 

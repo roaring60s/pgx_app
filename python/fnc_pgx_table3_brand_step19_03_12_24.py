@@ -56,30 +56,30 @@ def pgx_table2(file1, file2, pref1, suf1, pref2, suf2):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            drug_index = {}
+            with open(path_in, "r")as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split(s)
+                    drug2 = ls2[0].strip()
+                    atc = ls2[2]
+                    # gene = ls2[3]
+                    # evidence = ls2[4]
+                    effect2 = ls2[5].replace(';', ',')
+                    effect1 = effect2.strip().split(",")
+                    effect = sorted(set(effect1))
+                    clin_group = ls2[6]
+                    score = ls2[7]
+                    drug_index.setdefault(drug2, []).append((atc, effect, clin_group, score))
+
             with open(file2, "r")as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split(s)
                     drug1 = ls1[0].strip()
                     brand1 = ls1[1]
 
-                    with open(path_in, "r")as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split(s)
-                            drug2 = ls2[0].strip()
-                            atc = ls2[2]
-                            # gene = ls2[3]
-                            # evidence = ls2[4]
-                            effect2 = ls2[5].replace(';', ',')
-                            effect1 = effect2.strip().split(",")
-                            effect = list(set(effect1))
-                            clin_group = ls2[6]
-                            score = ls2[7]
-
-                            # brand2 = ls2[1].replace('"', "")
-
-                            if drug1 == drug2:
-                                # noinspection PyTypeChecker
-                                print(drug1, brand1, atc, ",".join(effect), clin_group, score, sep=s, file=fileout)
+                    for atc, effect, clin_group, score in drug_index.get(drug1, []):
+                        # noinspection PyTypeChecker
+                        print(drug1, brand1, atc, ",".join(effect), clin_group, score, sep=s, file=fileout)
 
             fileout.close()
 

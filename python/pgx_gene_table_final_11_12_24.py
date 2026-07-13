@@ -118,7 +118,7 @@ def sort_hap_values(hap_str):
 		sorted_haps = sorted(haps, key=lambda x: int(x.split('*')[1]) if x.split('*')[1].isdigit() else np.inf)
 		sorted_pairs.append('/'.join(sorted_haps))
 	# Remove duplicates
-	sorted_pairs = list(set(sorted_pairs))
+	sorted_pairs = sorted(set(sorted_pairs))
 	return ' | '.join(sorted_pairs)
 
 

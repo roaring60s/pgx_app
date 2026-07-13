@@ -43,29 +43,33 @@ def matching_files(file1, file2, no1):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            # opening master annotation file
+            drug_index = {}
+            with open(file2, "r")as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split(s)
+                    dx2 = ls2[1].strip()  # Drug name
+                    dx2C = ls2[2]  # drug name with capital first character
+                    brand = ls2[2]  # trade name
+                    code = ls2[31]  # ATC Code
+                    atc_l1code = ls2[25]
+                    atc_l1name = ls2[26]
+                    atc_l2code = ls2[27]
+                    atc_l2name = ls2[28]
+                    drug_index.setdefault(dx2, []).append(
+                        (dx2C, brand, code, atc_l1code, atc_l1name, atc_l2code, atc_l2name)
+                    )
+
             # opening sample files
             with open(path_in, "r")as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split(s)
                     dx1 = ls1[no1].strip()  # drug name in sample file
 
-                    # opening master annotation file
-                    with open(file2, "r")as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split(s)
-                            dx2 = ls2[1].strip()  # Drug name
-                            dx2C =ls2[2]  # drug name with capital first character
-                            brand = ls2[2]  # trade name
-                            code = ls2[31]  # ATC Code
-                            atc_l1code = ls2[25]
-                            atc_l1name = ls2[26]
-                            atc_l2code = ls2[27]
-                            atc_l2name = ls2[28]
-
-                            if dx1 == dx2:
-                                # noinspection PyTypeChecker
-                                print(dx2C, dx2, brand, code, atc_l1code, atc_l1name, atc_l2code, atc_l2name,
-                                      s.join(ls1), sep=s, file=fileout)
+                    for dx2C, brand, code, atc_l1code, atc_l1name, atc_l2code, atc_l2name in drug_index.get(dx1, []):
+                        # noinspection PyTypeChecker
+                        print(dx2C, dx1, brand, code, atc_l1code, atc_l1name, atc_l2code, atc_l2name,
+                              s.join(ls1), sep=s, file=fileout)
                     
         fileout.close()
 

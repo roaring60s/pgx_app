@@ -73,7 +73,7 @@ def fnc_drug_list_step9(file1, pref1, pref2, suf1, suf2):
                     drug = ls2[14]
                     drug_list.append(drug)
 
-                druglist = list(set(drug_list))
+                druglist = sorted(set(drug_list))
                 for item in druglist:
                     # noinspection PyTypeChecker
                     print(item, file=fileout)
@@ -97,108 +97,96 @@ def fnc_foldrows_scoring_step10(file1, pref1, pref2, pref3, suf1, suf2, suf3):
             path_in2 = dir_path + pr2 + pgx_idx + su2
             path_out = dir_path + pr3 + pgx_idx + su3
             fileout = open(path_out, "w+")
-            drugC_list = []
-            brand_list = []
-            atc_drug_list = []
-            atc_cl1_list = []
-            atc_nl1_list = []
-            atc_cl3_list = []
-            atc_nl3_list = []
-            gene_list = []
-            idx_list = []
-            gtscore_list = []
-            ev_list = []
-            tier_list = []
-            score_list = []
-            pheno_list = []
-            drugS_list = []
-            idtext_list = []
-            allele_list = []
-            text_list = []
-            # function_list = []
             print(f"Step 10, Folding Drug Rows {counter}, {pgx_idx}")
+
+            drug_rows_index = {}
+            with open(path_in1, "r") as p1:
+                for ln1 in p1:
+                    ls1 = ln1.strip().split(s)
+                    pheno = ls1[13].replace("Metabolism/PK", "Efficacy")
+                    drugC = ls1[0]
+                    brand = ls1[1]
+                    atc_drug = ls1[2]
+                    atc_cl1 = ls1[3]
+                    atc_nl1 = ls1[4]
+                    atc_cl3 = ls1[5]
+                    atc_nl3 = ls1[6]
+                    gene = ls1[7]
+                    idx = ls1[8]
+                    gtscore = int(ls1[9])
+                    ev = ls1[10]
+                    tier = ls1[11]
+                    idtext = ls1[15]
+                    allele = ls1[16]
+                    text = ls1[17]
+                    # function = ls1[18]
+                    drugS = ls1[14]
+                    score2 = ls1[12]
+
+                    drug_rows_index.setdefault(drugS, []).append(
+                        (drugC, brand, atc_drug, atc_cl1, atc_nl1, atc_cl3, atc_nl3, gene, idx,
+                         str(gtscore), ev, tier, pheno, drugS, idtext, allele, text, str(score2))
+                    )
 
             with open(path_in2, "r") as p2:
                 for ln2 in p2:
                     ls2 = ln2.strip().split(sc)
                     drugx = ls2[0]
 
-                    with open(path_in1, "r") as p1:
-                        drugC_list.clear()
-                        brand_list.clear()
-                        atc_drug_list.clear()
-                        atc_cl1_list.clear()
-                        atc_nl1_list.clear()
-                        atc_cl3_list.clear()
-                        atc_nl3_list.clear()
-                        gene_list.clear()
-                        idx_list.clear()
-                        score_list.clear()
-                        gtscore_list.clear()
-                        ev_list.clear()
-                        tier_list.clear()
-                        pheno_list.clear()
-                        drugS_list.clear()
-                        idtext_list.clear()
-                        allele_list.clear()
-                        text_list.clear()
-                        # function_list.clear()
+                    drugC_list = []
+                    brand_list = []
+                    atc_drug_list = []
+                    atc_cl1_list = []
+                    atc_nl1_list = []
+                    atc_cl3_list = []
+                    atc_nl3_list = []
+                    gene_list = []
+                    idx_list = []
+                    gtscore_list = []
+                    ev_list = []
+                    tier_list = []
+                    score_list = []
+                    pheno_list = []
+                    drugS_list = []
+                    idtext_list = []
+                    allele_list = []
+                    text_list = []
+                    # function_list = []
 
-                        for ln1 in p1:
-                            ls1 = ln1.strip().split(s)
-                            pheno = ls1[13].replace("Metabolism/PK", "Efficacy")
-                            drugC = ls1[0]
-                            brand = ls1[1]
-                            atc_drug = ls1[2]
-                            atc_cl1 = ls1[3]
-                            atc_nl1 = ls1[4]
-                            atc_cl3 = ls1[5]
-                            atc_nl3 = ls1[6]
-                            gene = ls1[7]
-                            idx = ls1[8]
-                            gtscore = int(ls1[9])
-                            ev = ls1[10]
-                            tier = ls1[11]
-                            idtext = ls1[15]
-                            allele = ls1[16]
-                            text = ls1[17]
-                            # function = ls1[18]
-                            drugS = ls1[14]
-                            score2 = ls1[12]
+                    for (drugC, brand, atc_drug, atc_cl1, atc_nl1, atc_cl3, atc_nl3, gene, idx,
+                         gtscore_str, ev, tier, pheno, drugS, idtext, allele, text, score2) in drug_rows_index.get(drugx, []):
+                        score_list.append(score2)
+                        drugC_list.append(drugC)
+                        brand_list.append(brand)
+                        atc_drug_list.append(atc_drug)
+                        atc_cl1_list.append(atc_cl1)
+                        atc_nl1_list.append(atc_nl1)
+                        atc_cl3_list.append(atc_cl3)
+                        atc_nl3_list.append(atc_nl3)
+                        gene_list.append(gene)
+                        idx_list.append(idx)
+                        gtscore_list.append(gtscore_str)
+                        ev_list.append(ev)
+                        tier_list.append(tier)
+                        pheno_list.append(pheno)
+                        drugS_list.append(drugS)
+                        idtext_list.append(idtext)
+                        allele_list.append(allele)
+                        text_list.append(text)
+                        # function_list.append(function)
 
-                            if drugx == drugS:
-                                score_list.append(str(score2))
-                                drugC_list.append(drugC)
-                                brand_list.append(brand)
-                                atc_drug_list.append(atc_drug)
-                                atc_cl1_list.append(atc_cl1)
-                                atc_nl1_list.append(atc_nl1)
-                                atc_cl3_list.append(atc_cl3)
-                                atc_nl3_list.append(atc_nl3)
-                                gene_list.append(gene)
-                                idx_list.append(idx)
-                                gtscore_list.append(str(gtscore))
-                                ev_list.append(ev)
-                                tier_list.append(tier)
-                                pheno_list.append(pheno)
-                                drugS_list.append(drugS)
-                                idtext_list.append(idtext)
-                                allele_list.append(allele)
-                                text_list.append(text)
-                                # function_list.append(function)
-
-                    list1 = list(set(drugC_list))
-                    list2 = list(set(brand_list))
-                    list3 = list(set(atc_drug_list))
-                    list4 = list(set(atc_cl1_list))
-                    list5 = list(set(atc_nl1_list))
-                    list6 = list(set(atc_cl3_list))
-                    list7 = list(set(atc_nl3_list))
-                    list8 = list(set(gene_list))
-                    list9 = list(set(idx_list))
+                    list1 = sorted(set(drugC_list))
+                    list2 = sorted(set(brand_list))
+                    list3 = sorted(set(atc_drug_list))
+                    list4 = sorted(set(atc_cl1_list))
+                    list5 = sorted(set(atc_nl1_list))
+                    list6 = sorted(set(atc_cl3_list))
+                    list7 = sorted(set(atc_nl3_list))
+                    list8 = sorted(set(gene_list))
+                    list9 = sorted(set(idx_list))
                     # list10 = list(set(ev_list))
                     # list11 = list(set(tier_list))
-                    list12 = list(set(pheno_list))
+                    list12 = sorted(set(pheno_list))
                     # list13 = list(set(drugS_list))
                     # list14 = list(set(idtext_list))
                     # list15 = list(set(allele_list))

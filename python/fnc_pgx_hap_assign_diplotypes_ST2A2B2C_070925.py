@@ -75,22 +75,22 @@ def pgx_hap_step2A(file1, file2):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            gene_index = {}
+            hap0 = "*1/*1"
+            with open(path_in, "r") as p1:
+                for ln1 in p1:
+                    ls1 = ln1.strip().split(s)
+                    gene1 = ls1[3]
+                    hap1 = ls1[5]
+
+                    if hap1 != hap0:
+                        gene_index.setdefault(gene1, []).append(hap1)
+
             with open(file2, "r") as p2:
                 for ln2 in p2:
                     ls2 = ln2.strip().split(s)
                     gene2 = ls2[0]
-                    hap_ls = []
-
-                    with open(path_in, "r") as p1:
-                        for ln1 in p1:
-                            ls1 = ln1.strip().split(s)
-                            gene1 = ls1[3]
-                            hap1 = ls1[5]
-                            hap0 = "*1/*1"
-
-                            if gene2 == gene1 and hap1 != hap0:
-                                # print(gene2, hap1, sep=s)
-                                hap_ls.append(hap1)
+                    hap_ls = gene_index.get(gene2, [])
 
                     if len(hap_ls) == 0:
                         continue

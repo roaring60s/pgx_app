@@ -44,25 +44,28 @@ def matching_files(file1, file2, no1, no2, no3):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            # opening clinical annotation master file
+            ref_index = {}
+            with open(file2, "r") as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split(s)
+                    hap2 = ls2[no3].strip()
+                    effect = ls2[11]
+                    ref_index.setdefault(hap2, []).append((effect, ls2))
+
             # opening sample files
             with open(path_in, "r") as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split(s)
                     hap1 = ls1[no1]
                     gt1 = ls1[no2]
+                    eff_value = "Normal function"
 
-                    # opening clinical annotation master file
-                    with open(file2, "r") as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split(s)
-                            hap2 = ls2[no3].strip()
-                            effect = ls2[11]
-                            eff_value = "Normal function"
-                            
-                            # amended to exclude Normal function
-                            if hap1 == hap2 and int(gt1) > 0:
-                                if effect != eff_value:
-                                    print(s.join(ls1), s.join(ls2), sep="\t", file=fileout)
+                    # amended to exclude Normal function
+                    for effect, ls2 in ref_index.get(hap1, []):
+                        if int(gt1) > 0:
+                            if effect != eff_value:
+                                print(s.join(ls1), s.join(ls2), sep="\t", file=fileout)
 
         fileout.close()
 

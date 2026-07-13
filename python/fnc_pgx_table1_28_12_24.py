@@ -92,6 +92,14 @@ def func_table1_S13(file1, file2, pref1, pref2, suf1, suf2):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            drug_category_index = {}
+            with open(path_in, "r") as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split(s)
+                    drug = ls2[3]
+                    category = int(ls2[8])
+                    drug_category_index.setdefault(drug, []).append(category)
+
             with open(file2, "r")as p1:
                 for ln1 in p1:
                     level1 = []
@@ -104,27 +112,22 @@ def func_table1_S13(file1, file2, pref1, pref2, suf1, suf2):
                     drug_list1 = ls1[2].strip().split(sc)
 
                     for item in drug_list1:
-                        with open(path_in, "r") as p2:
-                            for ln2 in p2:
-                                ls2 = ln2.strip().split(s)
-                                drug = ls2[3]
-                                category = int(ls2[8])
-
-                                if item == drug:
-                                    if category == 1:
-                                        level1.append(item.title())
-                                        if drug in drug_list:
-                                            drug_list.remove(item)
-                                    if category == 2:
-                                        level2.append(item.title())
-                                        if drug in drug_list:
-                                            drug_list.remove(item)
-                                    if category == 3:
-                                        level3.append(item.title())
-                                        if drug in level2:
-                                            level2.remove(item)
-                                        if drug in drug_list:
-                                            drug_list.remove(item)
+                        drug = item
+                        for category in drug_category_index.get(item, []):
+                            if category == 1:
+                                level1.append(item.title())
+                                if drug in drug_list:
+                                    drug_list.remove(item)
+                            if category == 2:
+                                level2.append(item.title())
+                                if drug in drug_list:
+                                    drug_list.remove(item)
+                            if category == 3:
+                                level3.append(item.title())
+                                if drug in level2:
+                                    level2.remove(item)
+                                if drug in drug_list:
+                                    drug_list.remove(item)
 
                     x = sorted(drug_list)
                     level1.sort()
@@ -152,6 +155,14 @@ def fnc_table1_st14(file1, file2, pref1, suf1, pref2, suf2):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)
 
+            atc_index = {}
+            with open(file2, "r") as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split('\t')
+                    atc2 = ls2[0]
+                    name2 = ls2[1].upper()
+                    atc_index.setdefault(atc2, []).append(name2)
+
             with open(path_in, "r") as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split('\t')
@@ -160,15 +171,9 @@ def fnc_table1_st14(file1, file2, pref1, suf1, pref2, suf2):
                     name1 = ls1[1]
                     green = ls1[2].title()
 
-                    with open(file2, "r") as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split('\t')
-                            atc2 = ls2[0]
-                            name2 = ls2[1].upper()
-
-                            if atc1 == atc2:
-                                # noinspection PyTypeChecker
-                                print(name2, name1, green, s.join(ls1[3: splice1]), sep=s, file=fileout)
+                    for name2 in atc_index.get(atc1, []):
+                        # noinspection PyTypeChecker
+                        print(name2, name1, green, s.join(ls1[3: splice1]), sep=s, file=fileout)
 
             fileout.close()
 

@@ -45,20 +45,23 @@ def matching_files(file1, file2, no1, no2, no3, no4):
             fileout = open(path_out, "w+")
             print(counter, pgx_idx, sep=s)    
     
+            ref_index = {}
+            with open(file2, "r")as p2:
+                for ln2 in p2:
+                    ls2 = ln2.strip().split('\t')
+                    var2 = ls2[no3]  # RSID
+                    gt2 = ls2[no4]  # GT
+                    ref_index.setdefault(var2, []).append((gt2, ls2))
+
             with open(path_in, "r")as p1:
                 for ln1 in p1:
                     ls1 = ln1.strip().split('\t')
                     var1 = ls1[no1]  # RSID
                     gt1 = ls1[no2]  # GT
-        
-                    with open(file2, "r")as p2:
-                        for ln2 in p2:
-                            ls2 = ln2.strip().split('\t')
-                            var2 = ls2[no3]  # RSID
-                            gt2 = ls2[no4]  # GT
-        
-                            if var1 == var2 and gt1 == gt2:
-                                print(s.join(ls1), s.join(ls2), sep="\t", file=fileout)
+
+                    for gt2, ls2 in ref_index.get(var1, []):
+                        if gt1 == gt2:
+                            print(s.join(ls1), s.join(ls2), sep="\t", file=fileout)
                             
     fileout.close()
 
