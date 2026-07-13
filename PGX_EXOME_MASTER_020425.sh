@@ -81,7 +81,6 @@ echo "                   Generating samples demographic data for the report for 
 echo ""
 #
 time "$pythonbin" "$pythond/fnc_pgx_sample_bio_data_23.03.24.py" "$bio_path" "$batchd/" "$report1" "$report2"
-wait
 
 echo ""
 echo '========================================  HAP STEP 1-B  ========================================================'
@@ -90,7 +89,6 @@ echo "Step 1-B: HAP => Haplotypes Generation for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_hap_alleles_1B_020425.py" "$bio_path" "$hap_alleles_master" "$dir_path"
-wait
 
 echo ""
 echo '======================================= HAP STEPS 2A, 2B, 2C, 2D ==============================================='
@@ -99,7 +97,6 @@ echo "Steps 2A, 2B, 2C: HAP => Assign Diplotypes for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_hap_assign_diplotypes_ST2A2B2C_070925.py" "$bio_path" "$hap_genes_1C" "$dir_path"
-wait
 
 echo ""
 echo '======================================  VAR Step 3 => Annotating with Clinical Alleles  ========================'
@@ -108,7 +105,6 @@ echo "Step 3: VAR => Annotating with Clinical Alleles for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_var_clin_ST3_02.02.24.py" "$bio_path" "$var_clin_alleles_EV13" "$dir_path"
-wait
 
 echo ""
 echo '======================================  HAP STEP 3 => Annotating with Clinical Alleles ========================='
@@ -117,7 +113,6 @@ echo "Step 3: HAP => Annotating with Clinical Alleles for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_hap_clin_ST3_03.02.24.py" "$bio_path" "$hap_clin_alleles_EV13" "$dir_path"
-wait
 
 echo ""
 echo '===================================== VAR STEP => Annotating with Drugs ======================================='
@@ -126,7 +121,6 @@ echo "Step 4: VAR => Annotating with Drugs for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_var_dx_ST4_02.02.24.py" "$bio_path" "$drugs_ann_cln_ann_EV13" "$dir_path"
-wait
 
 echo ""
 echo '===================================== HAP STEP 4 => Annotating with Drugs ======================================'
@@ -135,7 +129,6 @@ echo "Step 6: HAP => Annotating with Drugs for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_hap_dx_ST4_03.02.24.py" "$bio_path" "$drugs_ann_cln_ann_EV13" "$dir_path"
-wait
 
 echo ""
 echo '==================================== STEPS 5, 6: HAP and VAR => Combining ======================================'
@@ -144,7 +137,6 @@ echo "Step 5 and 6: HAP and VAR => Combining Haplotypes and Variant Files for $n
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_combining_hap_var_ST5.6_03.02.24.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '=================================== STEPS 7 ,8: Sorting with PANDAS ============================================'
@@ -153,7 +145,6 @@ echo "Step 7 and 8: COMBINED => Pandas, Sorting for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_pandas_SRT_ST7.8_03.02.24.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '========================================= STEPS 9, 10, 11: Generating Scoring =================================='
@@ -163,7 +154,6 @@ echo "Step 9, 10, 11: Generating Scoring for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_ST91011_scoring_200925.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '========================================= STEPS 12, 13, 14: Generating Table 1   ==============================='
@@ -172,7 +162,6 @@ echo "Step 12, 13, 14: Generating Table 1 for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_table1_28_12_24.py" "$bio_path" "$atcl5_dx_table_ev_ab4" "$atc_1level" "$dir_path"
-wait
 
 echo ""
 echo '======================================  STEP 16, 17: Generating Gene Table  ===================================='
@@ -181,7 +170,6 @@ echo "Step 16: Generating Gene Input Table for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_gene_table_step16_04.02.24.py" "$bio_path" "$dir_path"
-wait
 echo ""
 echo "----------------------------------------------------------------------------------------------------------------"
 echo ""
@@ -189,7 +177,6 @@ echo "Step 17: Generating Final Gene Table for $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/pgx_gene_table_final_11_12_24.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '=============================  STEP 18, Table 3: Generating Interim File  ======================================='
@@ -198,7 +185,6 @@ echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_table3_step18_07.02.24.py" "$bio_path" "$dir_path"
 
-wait
 echo ""
 echo '======================  STEP 19 & 20, Table 3: Adding Brand Name & Formatting Comma  ============================'
 echo "                                         $name @: $(date)"
@@ -206,7 +192,6 @@ echo ""
 
 time "$pythonbin" "$pythond/fnc_pgx_table3_brand_step19_03_12_24.py"  "$bio_path" "$brand_names" "$dir_path"
 
-wait
 echo ""
 echo '======================  STEP 21, Table 3: Final Formatting: Replacing Comma with New Line ======================='
 echo "                                         $name @: $(date)"
@@ -222,7 +207,6 @@ echo ""
 echo "Generating Table2 Input File "
 
 time "$pythonbin" "$pythond/fnc_pgx_table2_fInput_24_12_24.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '===============================  STEP 23, Table 2: Generating Final File ======================================='
@@ -237,7 +221,6 @@ echo "                                            $name @: $(date)"
 echo ""
 
 time "$pythonbin" "$pythond/gene_sorting_01.py" "$bio_path" "$dir_path"
-wait
 
 echo ""
 echo '===============================  STEP 25, Copying Final Files ======================================='
