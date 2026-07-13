@@ -6,16 +6,19 @@ pd.set_option("display.max_columns", None)
 # header=None => add 1 row as label (0-~)
 
 '''
-* Run Date -> 15/01/2026
-* sample   -> GSA00753
-* vcf      -> /media/D1/patients/B000_nara/GSA00753/GSA00753.38.raw.dbsnp.FILT.combined.vcf
+* Run Date -> 12/04/2026
+* sample   -> MG2600013
+* vcf      -> /media/D1/patients/B000_mygenics/MG2600013/MG2600013.38.raw.dbsnp.FILT.combined.vcf
 * Anno:    -> /home/p/mygenics/pipeline_asa_4_FGC_tgx/anno_hs/hs_var_master_grr_14.08.22_EAS_final.txt
 '''
 
 # Variables that need to be changed to point to actual directories and files
 sf = "/"
-maindir = "/media/D1/patients/B000_nara/"
-sample = "GSA00753"
+maindir = "/media/D1/patients/B000_mygenics/"
+sample = "MG2600013"
+
+# Annotation reference directory
+annotationd = "/home/p/mygenics/app_pgx/annotation/"
 
 # Variables that do not need to be changed if using standard GATK naming convention as per Pawel's Pipeline
 vcf = f"{sample}.38.raw.dbsnp.FILT.combined.vcf"
@@ -31,7 +34,7 @@ print(f"starting grep command tp remove hashed rows for sample {sample}")
 # Execute the command using subprocess
 subprocess.run(remove_hash, shell=True, text=True)
 
-grr = "./annotation/hs_var_master_grr_14.08.22_EAS_final.txt"
+grr = f"{annotationd}hs_var_master_grr_14.08.22_EAS_final.txt"
 
 outfile1 = f"{sampledir}{sample}_exome_12C.vcf"
 outfile2 = f"{sampledir}{sample}_exome_4C.vcf"
@@ -94,7 +97,7 @@ print(f"Generation of PGX input file from exome 10 columns file for sample {samp
 print(" ")
 
 # Variables that do not need to be changed if using standard GATK naming convention as per Pawel's Pipeline
-snps_var = "./annotation/pgx_asa_variants_snps_master_05.01.2024.txt"
+snps_var = f"{annotationd}pgx_asa_variants_snps_master_05.01.2024.txt"
 
 # 'sample'_exome_6C.vcf
 infile2 = f"{sampledir}{sample}_exome_10C.vcf"
@@ -145,7 +148,7 @@ Generation of PGX haplotype input file from exome 10 columns
 '''
 
 # Variables that do not need to be changed if using standard GATK naming convention as per Pawel's Pipeline
-snps_hap = "./annotation/pgx_asa_hap_snps_master_05.01.2024.txt"
+snps_hap = f"{annotationd}pgx_asa_hap_snps_master_05.01.2024.txt"
 
 # 'sample'_exome_10C.vcf
 infile5 = f"{sampledir}{sample}_exome_10C.vcf"
@@ -170,9 +173,17 @@ print(dfm2.head(20))
 def categorize_value(value):
     if value == "0/0":
         return "0"
-    elif value == "0/1" or "0/2":
+    elif value == "0/1":
         return "1"
-    elif value == "1/1" or "1/2" or "2/1" or "2/2":
+    elif value == "0/2":
+        return "1"
+    elif value == "1/1":
+        return "2"
+    elif value == "1/2":
+        return "2"
+    elif value == "2/2":
+        return "2"
+    elif value == "2/1":
         return "2"
     else:
         return None  # Handle cases where the value doesn't match any condition
