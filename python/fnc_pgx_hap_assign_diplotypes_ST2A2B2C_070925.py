@@ -153,11 +153,11 @@ def pgx_hap_cyp2d6_step2C(file1):
                     dip1 = ls1[2]
                     hap1 = dip1.split("/")
                     
-                    if gene1 != gene2d6:
+                    if gene1 != "CYP2D6":
                         print(s.join(ls1), dip1, sep=s, file=fileout)
 
-                    if gene1 == gene2d6:
-                        if exon9 == 2 and exon9 == intron2:
+                    elif gene1 == "CYP2D6":
+                        if exon9 >= 2 and exon9 == intron2:
                             print(s.join(ls1), dip1, sep=s, file=fileout)
                             
                         elif exon9 == 0 and intron2 == 0:
@@ -201,10 +201,13 @@ def pgx_hap_cyp2d6_step2C(file1):
                                 elif division > 1 and n != 0:
                                     times = str(floor)
                                     print(s.join(ls1), "(" + ls1[2] + ")X" + times, sep=s, file=fileout)
+                                
                                 else:
-                                    print(s.join(ls1), ls1[2], sep=s, file=fileout)
+                                    print(s.join(ls1), dip1, sep=s, file=fileout)
                         else:
-                            print(s.join(ls1), ls1[2], sep=s, file=fileout)
+                            print(s.join(ls1), dip1, sep=s, file=fileout)
+                    else:
+                        print(s.join(ls1), dip1, sep=s, file=fileout)
 
     fileout.close()
 
@@ -323,6 +326,6 @@ pgx_hap_cyp2d6_step2C(pathx)
 time.sleep(5)
 
 pgx_dip_clear_step2D(pathx)
-time.sleep(5)
+time.sleep(10)
 
 pgx_dip2hap_step2E(pathx)
