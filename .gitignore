@@ -6,3 +6,5 @@ __pycache__/
 .idea/rSettings.xml
 .idea/rAvailablePackageCache.xml
 .idea/rGraphicsSettings.xml
+.idea/shelf/
+.idea/workspace.xml
